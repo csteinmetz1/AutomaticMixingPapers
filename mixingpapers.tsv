@@ -1,3 +1,5 @@
 Year	Title	Authors	Paper	Resources	Category
+2017	Towards an automated multitrack mixing tool using answer set programming	F. Everardo	http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf	No	integrated
+2017	Intelligent multitrack reverberation based on hinge-loss markov random field	A. L. Benito and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18766	https://code.soundsoftware.ac.uk/projects/multitrackreverb	reverb
 2012	An autonomous method for multi-track dynamic range compression	J. A. Maddams, S. Finn, and J. D. Reiss	https://www.dafx12.york.ac.uk/papers/dafx12_submission_6.pdf	No	compression
-2008	Improved control for selective minimization of masking using interchannel dependancy effects	E. Perez Gonzalez, J. D. Reiss	http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf	No	integrated
+2008	Improved control for selective minimization of masking using interchannel dependancy effects	E. Perez Gonzaleza and J. D. Reiss	http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf	No	integrated

@@ -1,6 +1,9 @@
 import csv
 import operator
 
+def calculate_statistics(filename):
+    pass
+
 def sort_papers_by_year(filename):
     with open(filename, "r+") as mixing:
         mixing_tsv = csv.DictReader(mixing, dialect='excel-tab')
@@ -14,7 +17,6 @@ def sort_papers_by_year(filename):
         for row in sorted_mixing:
             writer.writerow(row)
         mixing.truncate()
-
 
 def build_readme(filename):
     # define section holders
@@ -48,18 +50,39 @@ def build_readme(filename):
             resources = entry['Resources']
             category  = entry['Category']
             
+            # this in inefficient and hard to update - need to wrap this in a new function
             if category == "level":
-                level += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                if resources == "No":
+                    level += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                else:
+                    level += "|%s|[%s](%s)|%s|[Yes](%s)|\n" %(year, title, paper, authors, resources)
             elif category == "panning":
-                pan   += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                if resources == "No":
+                    pan += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                else:
+                    pan += "|%s|[%s](%s)|%s|[Yes](%s)|\n" %(year, title, paper, authors, resources)
             elif category == "equalization":
-                eq    += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                if resources == "No":
+                    eq += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                else:
+                    eq += "|%s|[%s](%s)|%s|[Yes](%s)|\n" %(year, title, paper, authors, resources)
             elif category == "compression":
-                comp  += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources) 
+                if resources == "No":
+                    comp += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                else:
+                    comp += "|%s|[%s](%s)|%s|[Yes](%s)|\n" %(year, title, paper, authors, resources)
             elif category == "reverb":
-                verb  += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                if resources == "No":
+                    verb += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                else:
+                    verb += "|%s|[%s](%s)|%s|[Yes](%s)|\n" %(year, title, paper, authors, resources)
             elif category == "integrated":
-                integ += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                if resources == "No":
+                    integ += "|%s|[%s](%s)|%s|%s|\n" %(year, title, paper, authors, resources)
+                else:                    
+                    integ += "|%s|[%s](%s)|%s|[Yes](%s)|\n" %(year, title, paper, authors, resources)
+            else:
+                raise ValueError("Invalid cateogory value for", title) # check if this works as expected
 
     with open("README.md", "w+") as readme_file, open('header.md') as header:
         readme_file.write(header.read())
@@ -74,8 +97,8 @@ def build_readme(filename):
     return num_papers
 
 def main(filename="mixingpapers.tsv"):
-    #print("Compiled " + str(build_readme(filename)) + " papers")
-    sort_papers_by_year(filename)
+    sort_papers_by_year(filename)   
+    print("Compiled " + str(build_readme(filename)) + " papers")
 
 if __name__ == "__main__":
     main("mixingpapers.tsv")

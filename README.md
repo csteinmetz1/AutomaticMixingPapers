@@ -27,7 +27,9 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 ## Reverb
 |Year|Title|Authors|Resources|
 |---|---|---|---|
+|2017|[Intelligent multitrack reverberation based on hinge-loss markov random field](http://www.aes.org/e-lib/browse.cfm?elib=18766)|A. L. Benito and J. D. Reiss|[Yes](https://code.soundsoftware.ac.uk/projects/multitrackreverb)|
 ## Integrated
 |Year|Title|Authors|Resources|
 |---|---|---|---|
-|2008|[Improved control for selective minimization of masking using interchannel dependancy effects](http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf)|E. Perez Gonzalez, J. D. Reiss|No|
+|2017|[Towards an automated multitrack mixing tool using answer set programming](http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf)|F. Everardo|No|
+|2008|[Improved control for selective minimization of masking using interchannel dependancy effects](http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf)|E. Perez Gonzaleza and J. D. Reiss|No|
