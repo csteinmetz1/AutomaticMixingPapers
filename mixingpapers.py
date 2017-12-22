@@ -1,8 +1,48 @@
 import csv
 import operator
+import matplotlib.pyplot as plt
+import numpy as np
 
 def calculate_statistics(filename):
-    pass
+    years = {'2007' : 0, '2008' : 0, '2009' : 0, '2010' : 0,
+             '2011' : 0, '2012' : 0, '2013' : 0, '2014' : 0,
+             '2015' : 0, '2016' : 0, '2017' : 0, '2018' : 0}
+    
+    categories = {'Level' : 0, 
+                  'Panning' : 0,
+                  'Equalization' : 0,
+                  'Compression' : 0,
+                  'Reverb' : 0,
+                  'Integrated' : 0}
+    
+    approaches = {'GT' : 0, 'KE' : 0, 'ML' : 0}
+
+    total_pubs = 0
+    
+    with open(filename, "r+") as mixing:
+        mixing_tsv = csv.DictReader(mixing, dialect='excel-tab')
+        f = mixing_tsv.fieldnames
+
+        for entry in mixing_tsv:
+            # get attributes from table
+            year      = entry['Year']
+            category  = entry['Category']
+            approach  = entry['Approach']
+
+            years[year] += 1
+            categories[category] += 1
+            approaches[approach] += 1
+            total_pubs += 1
+
+    # plot publications by year
+    years_num = [int(i) for i in sorted(years.keys())]
+    pubs_per_year = [i[1] for i in sorted(years.items())]
+    plt.bar(years_num, pubs_per_year, align='center')
+    plt.xticks(years_num, years_num)
+    plt.xlabel('Year')
+    plt.ylabel('Publications')
+    plt.title('Automatic Mixing Publications by Year')
+    plt.savefig('figs/papers_by_year.png')
 
 def sort_papers_by_year(filename):
     with open(filename, "r+") as mixing:
@@ -20,12 +60,12 @@ def sort_papers_by_year(filename):
 
 def build_readme(filename):
     # define dict of section holders
-    sections = {"Level" : "", 
-                "Panning" : "",
-                "Equalization" : "",
-                "Compression" : "",
-                "Reverb" : "",
-                "Integrated" : ""}
+    sections = {'Level' : "", 
+                'Panning' : "",
+                'Equalization' : "",
+                'Compression' : "",
+                'Reverb' : "",
+                'Integrated' : ""}
 
     with open(filename) as mixing:
         mixing = csv.DictReader(mixing, dialect='excel-tab')
@@ -62,8 +102,10 @@ def build_readme(filename):
     return num_papers
 
 def main(filename="mixingpapers.tsv"):
-    sort_papers_by_year(filename)   
-    print("Compiled " + str(build_readme(filename)) + " papers")
+    sort_papers_by_year(filename)
+    num_papers = build_readme(filename)
+    calculate_statistics(filename)
+    print("Compiled " + str(num_papers) + " papers")
 
 if __name__ == "__main__":
     main("mixingpapers.tsv")

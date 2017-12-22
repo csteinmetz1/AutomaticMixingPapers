@@ -1,5 +1,7 @@
 Year	Title	Authors	Paper	Resources	Category	Approach
-2017	Towards an automated multitrack mixing tool using answer set programming	F. Everardo	http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf	No	Integrated	ML
+2017	Towards an automated multitrack mixing tool using answer set programming	F. Everardo	http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf	No	Integrated	KE
 2017	Intelligent multitrack reverberation based on hinge-loss markov random field	A. L. Benito and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18766	https://code.soundsoftware.ac.uk/projects/multitrackreverb	Reverb	ML
-2012	An autonomous method for multi-track dynamic range compression	J. A. Maddams, S. Finn, and J. D. Reiss	https://www.dafx12.york.ac.uk/papers/dafx12_submission_6.pdf	No	Compression	ML
-2008	Improved control for selective minimization of masking using interchannel dependancy effects	E. Perez Gonzaleza and J. D. Reiss	http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf	No	Integrated	GT
+2017	Analysis and prediction of the audio feature space when mixing raw recordings into individual stems	M. A. Martínez Ramírez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=19245	https://github.com/mchijmma/audioFeatures-stemMixing	Integrated	ML
+2012	An autonomous method for multi-track dynamic range compression	J. A. Maddams, S. Finn, and J. D. Reiss	https://www.dafx12.york.ac.uk/papers/dafx12_submission_6.pdf	No	Compression	GT
+2010	Advanced automatic mixing tools for music	E. Perez Gonzalez	https://qmro.qmul.ac.uk/jspui/handle/123456789/614	No	Integrated	GT
+2008	Improved control for selective minimization of masking using interchannel dependancy effects	E. Perez Gonzalez and J. D. Reiss	http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf	No	Integrated	GT
