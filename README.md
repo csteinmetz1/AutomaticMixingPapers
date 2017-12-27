@@ -35,3 +35,7 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 |2017|[Analysis and prediction of the audio feature space when mixing raw recordings into individual stems](http://www.aes.org/e-lib/browse.cfm?elib=19245)|M. A. Martínez Ramírez and J. D. Reiss|ML|[Yes](https://github.com/mchijmma/audioFeatures-stemMixing)|
 |2010|[Advanced automatic mixing tools for music](https://qmro.qmul.ac.uk/jspui/handle/123456789/614)|E. Perez Gonzalez|GT|No|
 |2008|[Improved control for selective minimization of masking using interchannel dependancy effects](http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf)|E. Perez Gonzalez and J. D. Reiss|GT|No|
+# Statistics
+![pubs_by_year]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/papers_by_year.png
+![categories]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/categories_breakdown.png
+![approaches]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/approaches_breakdown.png

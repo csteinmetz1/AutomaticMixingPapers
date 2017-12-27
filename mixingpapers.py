@@ -37,12 +37,30 @@ def calculate_statistics(filename):
     # plot publications by year
     years_num = [int(i) for i in sorted(years.keys())]
     pubs_per_year = [i[1] for i in sorted(years.items())]
+    plt.figure(0)
     plt.bar(years_num, pubs_per_year, align='center')
-    plt.xticks(years_num, years_num)
+    plt.xticks(years_num, years_num, rotation='vertical')
     plt.xlabel('Year')
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year')
     plt.savefig('figs/papers_by_year.png')
+
+    # plot pie chart of approaches
+    plt.figure(1)
+    labels = approaches.keys()
+    sizes = approaches.values()
+    plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
+    plt.axis('equal')
+    plt.savefig('figs/approaches_breakdown.png')
+
+    # plot pie chart of categories
+    plt.figure(2)
+    labels = categories.keys()
+    sizes = categories.values()
+    #explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
+    plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
+    plt.axis('equal')
+    plt.savefig('figs/categories_breakdown.png')
 
 def sort_papers_by_year(filename):
     with open(filename, "r+") as mixing:
@@ -98,13 +116,19 @@ def build_readme(filename):
         for section in sections:
             readme_file.write(sections[section])
         
+        stats = """# Statistics\n"""
+        stats += """![pubs_by_year]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/papers_by_year.png\n"""
+        stats += """![categories]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/categories_breakdown.png\n"""
+        stats += """![approaches]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/approaches_breakdown.png\n"""
+        readme_file.write(stats)
+        
     num_papers = mixing.line_num - 1
     return num_papers
 
 def main(filename="mixingpapers.tsv"):
     sort_papers_by_year(filename)
-    num_papers = build_readme(filename)
     calculate_statistics(filename)
+    num_papers = build_readme(filename)
     print("Compiled " + str(num_papers) + " papers")
 
 if __name__ == "__main__":
