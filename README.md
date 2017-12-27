@@ -14,6 +14,11 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 ## Level
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2012|[Implementation and evaluation of autonomous multi-track fader control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.725.3873&rep=rep1&type=pdf)|S. Mansbridge, S. Finn, and J. D. Reiss|GT|No|
+|2012|[An offline, automatic mixing method for live music, incorporating multiple sources, loudspeakers, and room effects](http://ieeexplore.ieee.org/document/6791175)|M. J. Terrell and M. Sandler|GT|No|
+|2012|[Multitrack mixing using a model of loudness and partial loudness](https://www.eecs.qmul.ac.uk/~josh/documents/WardReissAthwal-AES133-Multitrackmixingusingamodelofloudnessandpartialloudness.pdf)|D.Ward, J. D. Reiss, and C. Athwal|GT|No|
+|2011|[Automatic multi-track mixing using linear dynamical systems](http://music.ece.drexel.edu/files/Navigation/Publications/Scott2011a.pdf)|J. Scott et al.|ML|[Yes](http://music.ece.drexel.edu/research/AutoMix/lds)|
+|2011|[Analysis of acoustic features for automated multi-track mixing](http://music.ece.drexel.edu/files/Navigation/Publications/Scott2011b.pdf)|J. Scott and Y. E. Kim|ML|No|
 |2009|[Automatic gain and fader control for live mixing](https://www.researchgate.net/publication/224086775_Automatic_gain_and_fader_control_for_live_mixing)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 |2009|[Automatic equalization of multichannel audio using cross-adaptive methods](https://www.researchgate.net/publication/277836816_Automatic_Equalization_of_Multichannel_Audio_Using_Cross-Adaptive_Methods)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 |2009|[Automatic monitor mixing for live musical performance](http://www.aes.org/e-lib/browse.cfm?elib=15229)|M. J. Terrell and J. D. Reiss|KE|No|
@@ -22,14 +27,19 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 ## Panning
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2012|[An autonomous system for multitrack stereo pan positioning](http://www.eecs.qmul.ac.uk/~josh/documents/MansbridgeFinnReiss-AES133-Autonomoussystemformultitrackstereopositioning.pdf)|S. Mansbridge, S. Finn, and J. D. Reiss|KE|No|
 |2010|[A real-time semiautonomous audio panning system for music mixing](https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 ## Equalization
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2013|[Automated tonal balance enhancement for audio mastering applications](http://www.aes.org/e-lib/browse.cfm?elib=16737)|S. I. Mimilakis et al|GT|No|
+|2013|[Implementation of an intelligent equalization tool using Yule-Walker for music mixing and mastering](http://www.eecs.qmul.ac.uk/~josh/documents/Ma%20Reiss-%20Implementation%20of%20an%20Intelligent%20Equalization%20Tool%20Using%20Yule-Walker%20for%20Music%20Mixing%20and%20Mastering.pdf)|Z. Ma, J. D. Reiss, and D. A. A. Black|KE|No|
+|2009|[Automatic equalization of multichannel audio using cross-adaptive methods](http://www.aes.org/e-lib/browse.cfm?elib=15026)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 ## Compression
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
 |2012|[An autonomous method for multi-track dynamic range compression](https://www.dafx12.york.ac.uk/papers/dafx12_submission_6.pdf)|J. A. Maddams, S. Finn, and J. D. Reiss|GT|No|
+|2010|[Automatic noise gate settings for drum recordings containing bleed from secondary sources](https://dl.acm.org/citation.cfm?id=1972713)|M. J. Terrell, J. D. Reiss|KE|No|
 ## Reverb
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
