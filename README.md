@@ -22,6 +22,7 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 ## Panning
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2010|[A real-time semiautonomous audio panning system for music mixing](https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 ## Equalization
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
@@ -39,6 +40,7 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 |2017|[Towards an automated multitrack mixing tool using answer set programming](http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf)|F. Everardo|KE|No|
 |2017|[Analysis and prediction of the audio feature space when mixing raw recordings into individual stems](http://www.aes.org/e-lib/browse.cfm?elib=19245)|M. A. Martínez Ramírez and J. D. Reiss|ML|[Yes](https://github.com/mchijmma/audioFeatures-stemMixing)|
 |2010|[Advanced automatic mixing tools for music](https://qmro.qmul.ac.uk/jspui/handle/123456789/614)|E. Perez Gonzalez|GT|No|
+|2010|[Automatic Music Production System Employing Probabilistic Expert Systems](http://www.aes.org/e-lib/browse.cfm?elib=15677)|R. Gang, G. Bocko, J. Lundberg, D. Headlam, and M. F. Bocko|KE|No|
 |2008|[Improved control for selective minimization of masking using interchannel dependancy effects](http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 # Statistics
 ![pubs_by_year](figs/papers_by_year.png)
