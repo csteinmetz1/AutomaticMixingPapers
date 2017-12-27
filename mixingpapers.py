@@ -38,29 +38,34 @@ def calculate_statistics(filename):
     years_num = [int(i) for i in sorted(years.keys())]
     pubs_per_year = [i[1] for i in sorted(years.items())]
     plt.figure(0)
-    plt.bar(years_num, pubs_per_year, align='center')
+    plt.bar(years_num, pubs_per_year, align='center', color='#0284A8')
+    ax = plt.gca()
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
     plt.xticks(years_num, years_num, rotation='vertical')
     plt.xlabel('Year')
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year')
-    plt.savefig('figs/papers_by_year.png')
+    plt.savefig('figs/papers_by_year.png',  transparent=True)
 
     # plot pie chart of approaches
     plt.figure(1)
-    labels = approaches.keys()
+    labels = ['Grounded Theory', 'Knowledge Engineering', 'Machine Learning']
     sizes = approaches.values()
-    plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
+    colors = ['#A9E8DC', '#0284A8', '#02BEC4']
+    plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90, colors=colors)
     plt.axis('equal')
-    plt.savefig('figs/approaches_breakdown.png')
+    plt.savefig('figs/approaches_breakdown.png', transparent=True)
 
     # plot pie chart of categories
     plt.figure(2)
     labels = categories.keys()
     sizes = categories.values()
     #explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
-    plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
+    colors = ['#02547D', '#0284A8', '#02BEC4', '#A9E8DC', '#D5E8E4', '#3FE8C8']
+    plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90, colors=colors)
     plt.axis('equal')
-    plt.savefig('figs/categories_breakdown.png')
+    plt.savefig('figs/categories_breakdown.png',  transparent=True)
 
 def sort_papers_by_year(filename):
     with open(filename, "r+") as mixing:
