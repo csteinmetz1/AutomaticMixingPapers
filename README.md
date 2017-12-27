@@ -36,6 +36,6 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 |2010|[Advanced automatic mixing tools for music](https://qmro.qmul.ac.uk/jspui/handle/123456789/614)|E. Perez Gonzalez|GT|No|
 |2008|[Improved control for selective minimization of masking using interchannel dependancy effects](http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 # Statistics
-![pubs_by_year]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/papers_by_year.png
-![categories]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/categories_breakdown.png
-![approaches]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/approaches_breakdown.png
+![pubs_by_year](figs/papers_by_year.png)
+![categories](figs/categories_breakdown.png)
+![approaches](figs/approaches_breakdown.png)

@@ -117,9 +117,9 @@ def build_readme(filename):
             readme_file.write(sections[section])
         
         stats = """# Statistics\n"""
-        stats += """![pubs_by_year]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/papers_by_year.png\n"""
-        stats += """![categories]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/categories_breakdown.png\n"""
-        stats += """![approaches]: https://github.com/csteinmetz1/AutomaticMixingPapers/blob/master/figs/approaches_breakdown.png\n"""
+        stats += """![pubs_by_year](figs/papers_by_year.png)\n"""
+        stats += """![categories](figs/categories_breakdown.png)\n"""
+        stats += """![approaches](figs/approaches_breakdown.png)\n"""
         readme_file.write(stats)
         
     num_papers = mixing.line_num - 1
