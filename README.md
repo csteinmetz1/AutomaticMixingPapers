@@ -14,6 +14,7 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 ## Level
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2016|[An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge](http://usir.salford.ac.uk/44278/1/Wilson.pdf)|A. Wilson and B. Fazenda|KE|No|
 |2015|[Comparison of loudness features for automatic level adjustment in mixing](http://www.aes.org/e-lib/browse.cfm?elib=17928)|G. Wichern et al.|KE|No|
 |2014|[The mathematics of mixing](http://www.aes.org/tmpFiles/elib/20171227/17081.pdf)|M. J. Terrell, A. Simpson, and M. Sandler|GT|No|
 |2012|[Implementation and evaluation of autonomous multi-track fader control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.725.3873&rep=rep1&type=pdf)|S. Mansbridge, S. Finn, and J. D. Reiss|GT|No|
@@ -42,6 +43,7 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 ## Compression
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2016|[Deep neural networks for dynamic range compression in mastering applications](http://www.aes.org/e-lib/browse.cfm?elib=18237)|S. I. Mimilakis et al.|ML|No|
 |2015|[Adaptive audio reproduction using personalized compression](https://www.eecs.qmul.ac.uk/~josh/documents/2015/Mason%20et%20al%20-%20AES57%20-%202015.pdf)|A. Mason et al.|GT|No|
 |2015|[Intelligent multitrack dynamic range compression](http://www.aes.org/e-lib/browse.cfm?elib=17821)|Z. Ma et al.|KE|No|
 |2014|[A statistical approach to automated offline dynamic processing in the audio mastering process](http://www.dafx14.fau.de/papers/dafx14_marcel_hilsamer_a_statistical_approach_to.pdf)|M. Hilsamer and S. Herzog|GT|No|
@@ -52,11 +54,14 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
 |2017|[Intelligent multitrack reverberation based on hinge-loss markov random field](http://www.aes.org/e-lib/browse.cfm?elib=18766)|A. L. Benito and J. D. Reiss|ML|[Yes](https://code.soundsoftware.ac.uk/projects/multitrackreverb)|
+|2017|[A machine learning approach to application of intelligent artificial reverberation](http://www.aes.org/e-lib/browse.cfm?elib=18543)|E. T. Chourdakis and J. D. Reiss|ML|[Yes](https://code.soundsoftware.ac.uk/projects/chourdakisreiss2016)|
+|2016|[Automatic control of a digital reverberation effect using hybrid models](http://www.aes.org/e-lib/browse.cfm?elib=18090)|E. T. Chourdakis and J. D. Reiss|ML|No|
 ## Integrated
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
 |2017|[Towards an automated multitrack mixing tool using answer set programming](http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf)|F. Everardo|KE|No|
 |2017|[Analysis and prediction of the audio feature space when mixing raw recordings into individual stems](http://www.aes.org/e-lib/browse.cfm?elib=19245)|M. A. Martínez Ramírez and J. D. Reiss|ML|[Yes](https://github.com/mchijmma/audioFeatures-stemMixing)|
+|2016|[New sonorities for jazz recordings: Separation and mixing using deep neural networks](http://c4dm.eecs.qmul.ac.uk/events/wimp2/Mimilakis.pdf)|S. I. Mimilakis et al.|ML|[Yes](https://github.com/Js-Mim/aes_wimp)|
 |2015|[New sonorities for early jazz recordings using sound source separation and automatic mixing tools](http://ismir2015.uma.es/articles/190_Paper.pdf)|D. Matz, E. Cano, and J. Abeßer|GT|No|
 |2013|[A knowledge-engineered autonomous mixing system](http://www.aes.org/e-lib/browse.cfm?elib=17011)|B. De Man and J. D. Reiss|KE|No|
 |2013|[Instrument identification informed multi-track mixing](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.658.1536&rep=rep1&type=pdf)|J. Scott and Y. E. Kim|KE|No|

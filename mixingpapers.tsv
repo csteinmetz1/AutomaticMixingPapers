@@ -2,6 +2,11 @@ Year	Title	Authors	Paper	Resources	Category	Approach
 2017	Towards an automated multitrack mixing tool using answer set programming	F. Everardo	http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf	No	Integrated	KE
 2017	Intelligent multitrack reverberation based on hinge-loss markov random field	A. L. Benito and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18766	https://code.soundsoftware.ac.uk/projects/multitrackreverb	Reverb	ML
 2017	Analysis and prediction of the audio feature space when mixing raw recordings into individual stems	M. A. Martínez Ramírez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=19245	https://github.com/mchijmma/audioFeatures-stemMixing	Integrated	ML
+2017	A machine learning approach to application of intelligent artificial reverberation	E. T. Chourdakis and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18543	https://code.soundsoftware.ac.uk/projects/chourdakisreiss2016	Reverb	ML
+2016	Automatic control of a digital reverberation effect using hybrid models	E. T. Chourdakis and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18090	No	Reverb	ML
+2016	Deep neural networks for dynamic range compression in mastering applications	S. I. Mimilakis et al.	http://www.aes.org/e-lib/browse.cfm?elib=18237	No	Compression	ML
+2016	New sonorities for jazz recordings: Separation and mixing using deep neural networks	S. I. Mimilakis et al.	http://c4dm.eecs.qmul.ac.uk/events/wimp2/Mimilakis.pdf	https://github.com/Js-Mim/aes_wimp	Integrated	ML
+2016	An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge	A. Wilson and B. Fazenda	http://usir.salford.ac.uk/44278/1/Wilson.pdf	No	Level	KE
 2015	Adaptive audio reproduction using personalized compression	A. Mason et al.	https://www.eecs.qmul.ac.uk/~josh/documents/2015/Mason%20et%20al%20-%20AES57%20-%202015.pdf	No	Compression	GT
 2015	Autonomous multitrack equalization based on masking reduction	S. Hafezi and J. D. Reiss	http://www.eecs.qmul.ac.uk/~josh/documents/2015/Hafezi%20Reiss%20-%202015.pdf	No	Equalization	GT
 2015	Intelligent multitrack dynamic range compression	Z. Ma et al.	http://www.aes.org/e-lib/browse.cfm?elib=17821	No	Compression	KE
