@@ -4,4 +4,9 @@ Year	Title	Authors	Paper	Resources	Category	Approach
 2017	Analysis and prediction of the audio feature space when mixing raw recordings into individual stems	M. A. Martínez Ramírez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=19245	https://github.com/mchijmma/audioFeatures-stemMixing	Integrated	ML
 2012	An autonomous method for multi-track dynamic range compression	J. A. Maddams, S. Finn, and J. D. Reiss	https://www.dafx12.york.ac.uk/papers/dafx12_submission_6.pdf	No	Compression	GT
 2010	Advanced automatic mixing tools for music	E. Perez Gonzalez	https://qmro.qmul.ac.uk/jspui/handle/123456789/614	No	Integrated	GT
+2009	Automatic gain and fader control for live mixing	E. Perez Gonzalez and J. D. Reiss	https://www.researchgate.net/publication/224086775_Automatic_gain_and_fader_control_for_live_mixing	No	Level	GT
+2009	Automatic equalization of multichannel audio using cross-adaptive methods	E. Perez Gonzalez and J. D. Reiss	https://www.researchgate.net/publication/277836816_Automatic_Equalization_of_Multichannel_Audio_Using_Cross-Adaptive_Methods	No	Level	GT
+2009	Automatic monitor mixing for live musical performance	M. J. Terrell and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=15229	No	Level	KE
 2008	Improved control for selective minimization of masking using interchannel dependancy effects	E. Perez Gonzalez and J. D. Reiss	http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf	No	Integrated	GT
+2008	An automatic maximum gain normalization technique with applications to audio mixing	E. Perez Gonzalez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=14541	No	Level	GT
+2008	A Framework for Automatic Mixing Using Timbral Similarity Measures and Genetic Optimization	B. Kolasinski	http://www.aes.org/e-lib/browse.cfm?elib=14626	http://www.nyu.edu/projects/mtr/	Level	ML

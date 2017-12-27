@@ -14,6 +14,11 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 ## Level
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2009|[Automatic gain and fader control for live mixing](https://www.researchgate.net/publication/224086775_Automatic_gain_and_fader_control_for_live_mixing)|E. Perez Gonzalez and J. D. Reiss|GT|No|
+|2009|[Automatic equalization of multichannel audio using cross-adaptive methods](https://www.researchgate.net/publication/277836816_Automatic_Equalization_of_Multichannel_Audio_Using_Cross-Adaptive_Methods)|E. Perez Gonzalez and J. D. Reiss|GT|No|
+|2009|[Automatic monitor mixing for live musical performance](http://www.aes.org/e-lib/browse.cfm?elib=15229)|M. J. Terrell and J. D. Reiss|KE|No|
+|2008|[An automatic maximum gain normalization technique with applications to audio mixing](http://www.aes.org/e-lib/browse.cfm?elib=14541)|E. Perez Gonzalez and J. D. Reiss|GT|No|
+|2008|[A Framework for Automatic Mixing Using Timbral Similarity Measures and Genetic Optimization](http://www.aes.org/e-lib/browse.cfm?elib=14626)|B. Kolasinski|ML|[Yes](http://www.nyu.edu/projects/mtr/)|
 ## Panning
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
