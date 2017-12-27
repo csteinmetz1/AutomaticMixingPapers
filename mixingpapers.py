@@ -110,7 +110,7 @@ def build_readme(filename):
             else:
                 sections[category] += "|%s|[%s](%s)|%s|%s|[Yes](%s)|\n" %(year, title, paper, authors, approach, resources)
 
-    with open("README.md", "w+") as readme_file, open('header.md') as header:
+    with open("README.md", "w+") as readme_file, open('header.md') as header, open('acknowledgments.md') as ack, open('contribute.md') as contrib:
         readme_file.write(header.read())
 
         for section in sections:
@@ -121,6 +121,8 @@ def build_readme(filename):
         stats += """![categories](figs/categories_breakdown.png)\n"""
         stats += """![approaches](figs/approaches_breakdown.png)\n"""
         readme_file.write(stats)
+        readme_file.write(ack.read())
+        readme_file.write(contrib.read())
         
     num_papers = mixing.line_num - 1
     return num_papers
