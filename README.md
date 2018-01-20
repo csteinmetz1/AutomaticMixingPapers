@@ -2,23 +2,26 @@
 This repository serves to track and archive scientific work in the area of automatic multitrack audio mixing.
 
 ## Overview
-Mixing is a complex process carried out by audio engineers during the music production process. It involves a number of different steps each of which oftentimes have many substeps dependent on the source material and the desired result. In order to better categorize the work in this area the following mix processes are identified.
+Mixing is a complex process carried out by audio engineers during the music production process. It involves a number of different steps each of which oftentimes has many substeps dependent on the source material and the desired result. In order to better categorize the work in this area the following mix processes are identified.
 
-### Cateogories
+### Categories
 * `Level`
 * `Panning`
 * `Equalization`
-* `Compresssion`
+* `Compression`
 * `Reverb`
 
-Systems that incorporate more than one procees are categorized as `Integrated`.
+Systems that incorporate more than one process are categorized as `Integrated`.
 
 ### Approaches
 A number of different approaches have been employed to address the research problem of automatic mixing. They are organized using these three labels as outlined in [A Semantic Approach To Autonomous Mixing](http://arpjournal.com/a-semantic-approach-to-autonomous-mixing/) by Brecht De Man and Joshua D. Reiss.
 
-* `Grounded Theory` ( `GT` ) - Using pyschoacoustic or perceptual evaluation to design a mixing systems
+* `Grounded Theory` ( `GT` ) - Using psychoacoustic or perceptual evaluation to design a mixing systems
 * `Knowledge Engineering` ( `KE` ) - Using collected 'best practices' to design a mixing system
 * `Machine Learning` ( `ML` ) - Using mulitrack mix data from audio engineers to train a mathematical model for a mixing system
+
+### Resources
+If related code or additional resources are available for the publication a link is provided. 
 
 ## Level
 |Year|Title|Authors|Approach|Resources|
@@ -101,9 +104,9 @@ Save the file and then run the python script which will update the files.
 ```
 python mixingpapers.py
 ```
-Finally make a pull request with your changes after sucesffully updating the files.
+Finally make a pull request with your changes after successfully updating the files.
 
 ### Some notes
 * Ensure when adding entries to `mixingpapers.tsv` that your editor is using tabs not spaces
 * `mixingpapers.tsv` will be sorted by year every time you run the python script
-* If you encouter any errors with the python script ensure that you have used tabs and not left any trailing tabs or spaces.
+* If you encounter any errors with the python script ensure that you have used tabs and not left any trailing tabs or spaces.

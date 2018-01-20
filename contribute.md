@@ -14,9 +14,9 @@ Save the file and then run the python script which will update the files.
 ```
 python mixingpapers.py
 ```
-Finally make a pull request with your changes after sucesffully updating the files.
+Finally make a pull request with your changes after successfully updating the files.
 
 ### Some notes
 * Ensure when adding entries to `mixingpapers.tsv` that your editor is using tabs not spaces
 * `mixingpapers.tsv` will be sorted by year every time you run the python script
-* If you encouter any errors with the python script ensure that you have used tabs and not left any trailing tabs or spaces.
+* If you encounter any errors with the python script ensure that you have used tabs and not left any trailing tabs or spaces.
