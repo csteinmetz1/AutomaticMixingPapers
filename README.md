@@ -11,14 +11,14 @@ Mixing is a complex process carried out by audio engineers during the music prod
 * `Compresssion`
 * `Reverb`
 
-Systems that incorporate more than one procees are categorized as `integrated`.
+Systems that incorporate more than one procees are categorized as `Integrated`.
 
 ### Approaches
 A number of different approaches have been employed to address the research problem of automatic mixing. They are organized using these three labels as outlined in [A Semantic Approach To Autonomous Mixing](http://arpjournal.com/a-semantic-approach-to-autonomous-mixing/) by Brecht De Man and Joshua D. Reiss.
 
-* `Grounded Theory` - Using pyschoacoustic or perceptual evaluation to design a mixing systems
-* `Knowledge Engineering` - Using collected 'best practices' to design a mixing system
-* `Machine Learning` - Using mulitrack mix data from audio engineers to train a mathematical model for a mixing system
+* `Grounded Theory` ( `GT` ) - Using pyschoacoustic or perceptual evaluation to design a mixing systems
+* `Knowledge Engineering` ( `KE` ) - Using collected 'best practices' to design a mixing system
+* `Machine Learning` ( `ML` ) - Using mulitrack mix data from audio engineers to train a mathematical model for a mixing system
 
 ## Level
 |Year|Title|Authors|Approach|Resources|

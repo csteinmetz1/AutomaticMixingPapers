@@ -17,8 +17,6 @@ def calculate_statistics(filename):
     
     approaches = {'GT' : 0, 'KE' : 0, 'ML' : 0}
 
-    total_pubs = 0
-
     approaches_by_year = {'GT' : years.copy(),
                           'KE' : years.copy(),
                           'ML' : years.copy()}
@@ -30,6 +28,8 @@ def calculate_statistics(filename):
                           'Reverb' : years.copy(),
                           'Integrated' : years.copy()}
    
+    total_pubs = 0
+
     with open(filename, "r+") as mixing:
         mixing_tsv = csv.DictReader(mixing, dialect='excel-tab')
         f = mixing_tsv.fieldnames
@@ -113,7 +113,7 @@ def calculate_statistics(filename):
     plt.xticks(years_num, years_num, rotation='vertical')
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year: Category Breakdown', y=1.08)
-    lgd = plt.legend((p6[0], p5[0], p4[0], p3[0], p2[0], p1[0]), ('Level', 'Panning', 'Equalization', 'Compression', 'Reverb', 'Integrated'), loc=3, bbox_to_anchor=(1, 0.5))
+    lgd = plt.legend((p6[0], p5[0], p4[0], p3[0], p2[0], p1[0]), ('Integrated', 'Reverb', 'Compression', 'Equalization', 'Panning', 'Level'), loc=3, bbox_to_anchor=(1, 0.5))
     plt.savefig('figs/categories_by_year.png',  additional_artists=lgd, bbox_inches="tight",  transparent=True)
 
     # plot pie chart of approaches
