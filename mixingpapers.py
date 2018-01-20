@@ -70,9 +70,8 @@ def calculate_statistics(filename):
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     plt.xticks(years_num, years_num, rotation='vertical')
-    plt.xlabel('Year')
     plt.ylabel('Publications')
-    plt.title('Automatic Mixing Publications by Year', y=1.08)
+    plt.title('Automatic Mixing Publications by Year')
     plt.savefig('figs/papers_by_year.png', bbox_inches="tight", transparent=True)
 
     # plot publications by year with division by approach
@@ -88,7 +87,6 @@ def calculate_statistics(filename):
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     plt.xticks(years_num, years_num, rotation='vertical')
-    plt.xlabel('Year')
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year: Approach Breakdown', y=1.08)
     lgd = plt.legend((p3[0], p2[0], p1[0]), ('Machine Learning', 'Knowledge Engineering', 'Grounded Theory'), loc=3, bbox_to_anchor=(1, 0.5))
@@ -113,7 +111,6 @@ def calculate_statistics(filename):
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     plt.xticks(years_num, years_num, rotation='vertical')
-    plt.xlabel('Year')
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year: Category Breakdown', y=1.08)
     lgd = plt.legend((p6[0], p5[0], p4[0], p3[0], p2[0], p1[0]), ('Level', 'Panning', 'Equalization', 'Compression', 'Reverb', 'Integrated'), loc=3, bbox_to_anchor=(1, 0.5))
