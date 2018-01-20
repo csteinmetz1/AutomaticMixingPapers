@@ -72,7 +72,7 @@ def calculate_statistics(filename):
     plt.xticks(years_num, years_num, rotation='vertical')
     plt.xlabel('Year')
     plt.ylabel('Publications')
-    plt.title('Automatic Mixing Publications by Year')
+    plt.title('Automatic Mixing Publications by Year', y=1.08)
     plt.savefig('figs/papers_by_year.png', bbox_inches="tight", transparent=True)
 
     # plot publications by year with division by approach
@@ -90,7 +90,7 @@ def calculate_statistics(filename):
     plt.xticks(years_num, years_num, rotation='vertical')
     plt.xlabel('Year')
     plt.ylabel('Publications')
-    plt.title('Automatic Mixing Publications by Year')
+    plt.title('Automatic Mixing Publications by Year: Approach Breakdown', y=1.08)
     lgd = plt.legend((p3[0], p2[0], p1[0]), ('Machine Learning', 'Knowledge Engineering', 'Grounded Theory'), loc=3, bbox_to_anchor=(1, 0.5))
     plt.savefig('figs/approaches_by_year.png', additional_artists=lgd, bbox_inches="tight", transparent=True)
 
@@ -115,7 +115,7 @@ def calculate_statistics(filename):
     plt.xticks(years_num, years_num, rotation='vertical')
     plt.xlabel('Year')
     plt.ylabel('Publications')
-    plt.title('Automatic Mixing Publications by Year')
+    plt.title('Automatic Mixing Publications by Year: Category Breakdown', y=1.08)
     lgd = plt.legend((p6[0], p5[0], p4[0], p3[0], p2[0], p1[0]), ('Level', 'Panning', 'Equalization', 'Compression', 'Reverb', 'Integrated'), loc=3, bbox_to_anchor=(1, 0.5))
     plt.savefig('figs/categories_by_year.png',  additional_artists=lgd, bbox_inches="tight",  transparent=True)
 
@@ -125,9 +125,11 @@ def calculate_statistics(filename):
     sizes = approaches.values()
     colors = [GT_color, KE_color, ML_color]
     ax = plt.subplot(111)
-    wedges = ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90, colors=colors)
-    for wedge in wedges[0]:
+    details = ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90, colors=colors)
+    for wedge in details[0]:
         wedge.set_edgecolor('white')
+    for perct in details[2]:
+        perct.set_color('white')
     ax.axis('equal')
     plt.savefig('figs/approaches_breakdown.png', transparent=True)
 
@@ -137,9 +139,11 @@ def calculate_statistics(filename):
     sizes = categories.values()
     colors = [level_color, pan_color, eq_color, comp_color, verb_color, int_color]
     ax = plt.subplot(111)
-    wedges = ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90, colors=colors)
-    for wedge in wedges[0]:
+    details = ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90, colors=colors)
+    for wedge in details[0]:
         wedge.set_edgecolor('white')
+    for perct in details[2]:
+        perct.set_color('white')
     plt.axis('equal')
     plt.savefig('figs/categories_breakdown.png',  transparent=True)
 
