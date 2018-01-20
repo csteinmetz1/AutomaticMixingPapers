@@ -116,7 +116,7 @@ def calculate_statistics(filename):
     plt.xlabel('Year')
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year')
-    lgd = plt.legend((p6[0], p4[0], p4[0], p3[0], p2[0], p1[0]), ('Level', 'Panning', 'Equalization', 'Compression', 'Reverb', 'Integrated'), loc=3, bbox_to_anchor=(1, 0.5))
+    lgd = plt.legend((p6[0], p5[0], p4[0], p3[0], p2[0], p1[0]), ('Level', 'Panning', 'Equalization', 'Compression', 'Reverb', 'Integrated'), loc=3, bbox_to_anchor=(1, 0.5))
     plt.savefig('figs/categories_by_year.png',  additional_artists=lgd, bbox_inches="tight",  transparent=True)
 
     # plot pie chart of approaches
