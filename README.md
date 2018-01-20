@@ -88,7 +88,7 @@ If related code or additional resources are available for the publication a link
 ![categories](figs/categories_breakdown.png)
 ![approaches](figs/approaches_breakdown.png)
 ## Acknowledgments
-Special thanks to [Brecht De Man](http://www.brechtdeman.com/index.html), [Josh Reiss](http://www.eecs.qmul.ac.uk/~josh/), and [Ryan Stables](http://www.ryanstables.co.uk) as their publication [Ten Years of Automatic Mixing](http://www.brechtdeman.com/publications/pdf/WIMP3.pdf) served as the foundation for this repository.
+Special thanks to [Brecht De Man](http://www.brechtdeman.com/index.html), [Joshua D. Reiss](http://www.eecs.qmul.ac.uk/~josh/), and [Ryan Stables](http://www.ryanstables.co.uk) as their publication [Ten Years of Automatic Mixing](http://www.brechtdeman.com/publications/pdf/WIMP3.pdf) served as the foundation for this repository.
 ## Contributing
 Making contributions to the repo is simple.
 
