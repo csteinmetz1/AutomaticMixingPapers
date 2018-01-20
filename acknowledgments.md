@@ -1,2 +1,2 @@
 ## Acknowledgments
-Special thanks to Brecht De Man, Josh D. Reiss, and Ryan Stables as their publication [Ten Years of Automatic Mixing](http://www.brechtdeman.com/publications/pdf/WIMP3.pdf) served as the foundation for this repository.
+Special thanks to [Brecht De Man](http://www.brechtdeman.com/index.html), [Josh Reiss](http://www.eecs.qmul.ac.uk/~josh/), and [Ryan Stables](http://www.ryanstables.co.uk) as their publication [Ten Years of Automatic Mixing](http://www.brechtdeman.com/publications/pdf/WIMP3.pdf) served as the foundation for this repository.
