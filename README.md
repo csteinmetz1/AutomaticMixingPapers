@@ -70,6 +70,8 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 |2008|[Improved control for selective minimization of masking using interchannel dependancy effects](http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 # Statistics
 ![pubs_by_year](figs/papers_by_year.png)
+![categories_by_year](figs/categories_by_year.png)
+![approaches_by_year](figs/approaches_by_year.png)
 ![categories](figs/categories_breakdown.png)
 ![approaches](figs/approaches_breakdown.png)
 ## Acknowledgments
