@@ -49,6 +49,18 @@ def calculate_statistics(filename):
 
             total_pubs += 1
 
+    # set up plot colors
+    level_color = '#151c53'
+    pan_color = '#1f347e'
+    eq_color = '#2b609d'
+    comp_color = '#3993bd'
+    verb_color = '#65bbca'
+    int_color = '#b6dbc5'
+
+    GT_color = '#461a68'
+    KE_color = '#9d3484'
+    ML_color = '#ec7a8a'  
+
     # plot publications by year
     years_num = [int(i) for i in sorted(years.keys())]
     pubs_per_year = [i[1] for i in sorted(years.items())]
@@ -69,9 +81,9 @@ def calculate_statistics(filename):
     KE_pubs_by_year = np.array([i[1] for i in sorted(approaches_by_year['KE'].items())])
     ML_pubs_by_year = np.array([i[1] for i in sorted(approaches_by_year['ML'].items())])
     plt.figure(1)
-    p1 = plt.bar(years_num, GT_pubs_by_year, align='center', color='#02547D')
-    p2 = plt.bar(years_num, KE_pubs_by_year, bottom=GT_pubs_by_year, align='center', color='#02BEC4')
-    p3 = plt.bar(years_num, ML_pubs_by_year, bottom=GT_pubs_by_year+KE_pubs_by_year, align='center', color='#D5E8E4')
+    p1 = plt.bar(years_num, GT_pubs_by_year, align='center', color=GT_color)
+    p2 = plt.bar(years_num, KE_pubs_by_year, bottom=GT_pubs_by_year, align='center', color=KE_color)
+    p3 = plt.bar(years_num, ML_pubs_by_year, bottom=GT_pubs_by_year+KE_pubs_by_year, align='center', color=ML_color)
     ax = plt.gca()
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -79,7 +91,7 @@ def calculate_statistics(filename):
     plt.xlabel('Year')
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year')
-    lgd = plt.legend((p1[0], p2[0], p3[0]), ('Grounded Theory', 'Knowledge Engineering', 'Machine Learning'), loc=3, bbox_to_anchor=(1, 0.5))
+    lgd = plt.legend((p3[0], p2[0], p1[0]), ('Machine Learning', 'Knowledge Engineering', 'Grounded Theory'), loc=3, bbox_to_anchor=(1, 0.5))
     plt.savefig('figs/approaches_by_year.png', additional_artists=lgd, bbox_inches="tight", transparent=True)
 
     # plot publications by year with division by category
@@ -91,12 +103,12 @@ def calculate_statistics(filename):
     verb_pubs_by_year = np.array([i[1] for i in sorted(categories_by_year['Reverb'].items())])
     int_pubs_by_year = np.array([i[1] for i in sorted(categories_by_year['Integrated'].items())])
     plt.figure(2)
-    p1 = plt.bar(years_num, level_pubs_by_year, align='center', color='#02547D')
-    p2 = plt.bar(years_num, pan_pubs_by_year, bottom=level_pubs_by_year, align='center', color='#0284A8')
-    p3 = plt.bar(years_num, eq_pubs_by_year, bottom=level_pubs_by_year+pan_pubs_by_year, align='center', color='#02BEC4')
-    p4 = plt.bar(years_num, comp_pubs_by_year, bottom=level_pubs_by_year+pan_pubs_by_year+eq_pubs_by_year, align='center', color='#3FE8C8')
-    p5 = plt.bar(years_num, verb_pubs_by_year, bottom=level_pubs_by_year+pan_pubs_by_year+eq_pubs_by_year+comp_pubs_by_year, align='center', color='#A9E8DC')
-    p6 = plt.bar(years_num, int_pubs_by_year, bottom=level_pubs_by_year+pan_pubs_by_year+eq_pubs_by_year+comp_pubs_by_year+verb_pubs_by_year, align='center', color='#D5E8E4')
+    p1 = plt.bar(years_num, level_pubs_by_year, align='center', color=level_color)
+    p2 = plt.bar(years_num, pan_pubs_by_year, bottom=level_pubs_by_year, align='center', color=pan_color)
+    p3 = plt.bar(years_num, eq_pubs_by_year, bottom=level_pubs_by_year+pan_pubs_by_year, align='center', color=eq_color)
+    p4 = plt.bar(years_num, comp_pubs_by_year, bottom=level_pubs_by_year+pan_pubs_by_year+eq_pubs_by_year, align='center', color=comp_color)
+    p5 = plt.bar(years_num, verb_pubs_by_year, bottom=level_pubs_by_year+pan_pubs_by_year+eq_pubs_by_year+comp_pubs_by_year, align='center', color=verb_color)
+    p6 = plt.bar(years_num, int_pubs_by_year, bottom=level_pubs_by_year+pan_pubs_by_year+eq_pubs_by_year+comp_pubs_by_year+verb_pubs_by_year, align='center', color=int_color)
     ax = plt.gca()
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -104,24 +116,30 @@ def calculate_statistics(filename):
     plt.xlabel('Year')
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year')
-    lgd = plt.legend((p1[0], p2[0], p3[0], p4[0], p5[0], p6[0]), ('Level', 'Panning', 'Equalization', 'Compression', 'Reverb', 'Integrated'), loc=3, bbox_to_anchor=(1, 0.5))
+    lgd = plt.legend((p6[0], p4[0], p4[0], p3[0], p2[0], p1[0]), ('Level', 'Panning', 'Equalization', 'Compression', 'Reverb', 'Integrated'), loc=3, bbox_to_anchor=(1, 0.5))
     plt.savefig('figs/categories_by_year.png',  additional_artists=lgd, bbox_inches="tight",  transparent=True)
 
     # plot pie chart of approaches
     plt.figure(3)
     labels = ['Grounded Theory', 'Knowledge Engineering', 'Machine Learning']
     sizes = approaches.values()
-    colors = ['#02547D', '#02BEC4', '#D5E8E4']
-    plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90, colors=colors)
-    plt.axis('equal')
+    colors = [GT_color, KE_color, ML_color]
+    ax = plt.subplot(111)
+    wedges = ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90, colors=colors)
+    for wedge in wedges[0]:
+        wedge.set_edgecolor('white')
+    ax.axis('equal')
     plt.savefig('figs/approaches_breakdown.png', transparent=True)
 
     # plot pie chart of categories
     plt.figure(4)
     labels = categories.keys()
     sizes = categories.values()
-    colors = ['#02547D', '#0284A8', '#02BEC4', '#3FE8C8', '#A9E8DC', '#D5E8E4']
-    plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90, colors=colors)
+    colors = [level_color, pan_color, eq_color, comp_color, verb_color, int_color]
+    ax = plt.subplot(111)
+    wedges = ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90, colors=colors)
+    for wedge in wedges[0]:
+        wedge.set_edgecolor('white')
     plt.axis('equal')
     plt.savefig('figs/categories_breakdown.png',  transparent=True)
 
