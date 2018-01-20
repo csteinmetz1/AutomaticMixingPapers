@@ -14,6 +14,7 @@ Systems that incorporate more than one procees are categorized as `integrated`.
 ## Level
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2017|[Automatic masking reduction in balance mixes using evolutionary computing](http://www.aes.org/e-lib/browse.cfm?elib=19210)|N. Jillings, R. Stables|ML|No|
 |2016|[An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge](http://usir.salford.ac.uk/44278/1/Wilson.pdf)|A. Wilson and B. Fazenda|KE|No|
 |2015|[Comparison of loudness features for automatic level adjustment in mixing](http://www.aes.org/e-lib/browse.cfm?elib=17928)|G. Wichern et al.|KE|No|
 |2014|[The mathematics of mixing](http://www.aes.org/tmpFiles/elib/20171227/17081.pdf)|M. J. Terrell, A. Simpson, and M. Sandler|GT|No|
