@@ -27,8 +27,8 @@ If related code or additional resources are available for the publication a link
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
 |2017|[Automatic masking reduction in balance mixes using evolutionary computing](http://www.aes.org/e-lib/browse.cfm?elib=19210)|N. Jillings, R. Stables|ML|No|
-|2016|[An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge](http://usir.salford.ac.uk/44278/1/Wilson.pdf)|A. Wilson and B. Fazenda|KE|No|
-|2015|[Comparison of loudness features for automatic level adjustment in mixing](http://www.aes.org/e-lib/browse.cfm?elib=17928)|G. Wichern et al.|KE|No|
+|2016|[An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge](http://usir.salford.ac.uk/44278/1/Wilson.pdf)|A. Wilson and B. Fazenda|ML|No|
+|2015|[Comparison of loudness features for automatic level adjustment in mixing](http://www.aes.org/e-lib/browse.cfm?elib=17928)|G. Wichern et al.|GT|No|
 |2014|[The mathematics of mixing](http://www.aes.org/tmpFiles/elib/20171227/17081.pdf)|M. J. Terrell, A. Simpson, and M. Sandler|GT|No|
 |2012|[Implementation and evaluation of autonomous multi-track fader control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.725.3873&rep=rep1&type=pdf)|S. Mansbridge, S. Finn, and J. D. Reiss|GT|No|
 |2012|[An offline, automatic mixing method for live music, incorporating multiple sources, loudspeakers, and room effects](http://ieeexplore.ieee.org/document/6791175)|M. J. Terrell and M. Sandler|GT|No|
@@ -37,7 +37,7 @@ If related code or additional resources are available for the publication a link
 |2011|[Analysis of acoustic features for automated multi-track mixing](http://music.ece.drexel.edu/files/Navigation/Publications/Scott2011b.pdf)|J. Scott and Y. E. Kim|ML|No|
 |2009|[Automatic gain and fader control for live mixing](https://www.researchgate.net/publication/224086775_Automatic_gain_and_fader_control_for_live_mixing)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 |2009|[Automatic equalization of multichannel audio using cross-adaptive methods](https://www.researchgate.net/publication/277836816_Automatic_Equalization_of_Multichannel_Audio_Using_Cross-Adaptive_Methods)|E. Perez Gonzalez and J. D. Reiss|GT|No|
-|2009|[Automatic monitor mixing for live musical performance](http://www.aes.org/e-lib/browse.cfm?elib=15229)|M. J. Terrell and J. D. Reiss|KE|No|
+|2009|[Automatic monitor mixing for live musical performance](http://www.aes.org/e-lib/browse.cfm?elib=15229)|M. J. Terrell and J. D. Reiss|GT|No|
 |2008|[An automatic maximum gain normalization technique with applications to audio mixing](http://www.aes.org/e-lib/browse.cfm?elib=14541)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 |2008|[A framework for automatic mixing using timbral similarity measures and genetic optimization](http://www.aes.org/e-lib/browse.cfm?elib=14626)|B. Kolasinski|ML|[Yes](http://www.nyu.edu/projects/mtr/)|
 ## Panning

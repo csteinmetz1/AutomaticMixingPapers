@@ -7,12 +7,12 @@ Year	Title	Authors	Paper	Resources	Category	Approach
 2016	Automatic control of a digital reverberation effect using hybrid models	E. T. Chourdakis and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18090	No	Reverb	ML
 2016	Deep neural networks for dynamic range compression in mastering applications	S. I. Mimilakis et al.	http://www.aes.org/e-lib/browse.cfm?elib=18237	No	Compression	ML
 2016	New sonorities for jazz recordings: Separation and mixing using deep neural networks	S. I. Mimilakis et al.	http://c4dm.eecs.qmul.ac.uk/events/wimp2/Mimilakis.pdf	https://github.com/Js-Mim/aes_wimp	Integrated	ML
-2016	An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge	A. Wilson and B. Fazenda	http://usir.salford.ac.uk/44278/1/Wilson.pdf	No	Level	KE
+2016	An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge	A. Wilson and B. Fazenda	http://usir.salford.ac.uk/44278/1/Wilson.pdf	No	Level	ML
 2015	Adaptive audio reproduction using personalized compression	A. Mason et al.	https://www.eecs.qmul.ac.uk/~josh/documents/2015/Mason%20et%20al%20-%20AES57%20-%202015.pdf	No	Compression	GT
 2015	Autonomous multitrack equalization based on masking reduction	S. Hafezi and J. D. Reiss	http://www.eecs.qmul.ac.uk/~josh/documents/2015/Hafezi%20Reiss%20-%202015.pdf	No	Equalization	GT
 2015	Intelligent multitrack dynamic range compression	Z. Ma et al.	http://www.aes.org/e-lib/browse.cfm?elib=17821	No	Compression	KE
 2015	New sonorities for early jazz recordings using sound source separation and automatic mixing tools	D. Matz, E. Cano, and J. Abeßer	http://ismir2015.uma.es/articles/190_Paper.pdf	No	Integrated	GT
-2015	Comparison of loudness features for automatic level adjustment in mixing	G. Wichern et al.	http://www.aes.org/e-lib/browse.cfm?elib=17928	No	Level	KE
+2015	Comparison of loudness features for automatic level adjustment in mixing	G. Wichern et al.	http://www.aes.org/e-lib/browse.cfm?elib=17928	No	Level	GT
 2014	The mathematics of mixing	M. J. Terrell, A. Simpson, and M. Sandler	http://www.aes.org/tmpFiles/elib/20171227/17081.pdf	No	Level	GT
 2014	A cross-adaptive dynamic spectral panning technique	P. D. Pestana and J. D. Reiss	http://www.dafx14.fau.de/papers/dafx14_pedro_d._pestana_a_cross_adaptive_dynamic_.pdf	No	Panning	GT
 2014	A statistical approach to automated offline dynamic processing in the audio mastering process	M. Hilsamer and S. Herzog	http://www.dafx14.fau.de/papers/dafx14_marcel_hilsamer_a_statistical_approach_to.pdf	No	Compression	GT
@@ -34,7 +34,7 @@ Year	Title	Authors	Paper	Resources	Category	Approach
 2010	Automatic noise gate settings for drum recordings containing bleed from secondary sources	M. J. Terrell, J. D. Reiss	https://dl.acm.org/citation.cfm?id=1972713	No	Compression	KE
 2009	Automatic gain and fader control for live mixing	E. Perez Gonzalez and J. D. Reiss	https://www.researchgate.net/publication/224086775_Automatic_gain_and_fader_control_for_live_mixing	No	Level	GT
 2009	Automatic equalization of multichannel audio using cross-adaptive methods	E. Perez Gonzalez and J. D. Reiss	https://www.researchgate.net/publication/277836816_Automatic_Equalization_of_Multichannel_Audio_Using_Cross-Adaptive_Methods	No	Level	GT
-2009	Automatic monitor mixing for live musical performance	M. J. Terrell and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=15229	No	Level	KE
+2009	Automatic monitor mixing for live musical performance	M. J. Terrell and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=15229	No	Level	GT
 2009	Automatic equalization of multichannel audio using cross-adaptive methods	E. Perez Gonzalez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=15026	No	Equalization	GT
 2008	Improved control for selective minimization of masking using interchannel dependancy effects	E. Perez Gonzalez and J. D. Reiss	http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf	No	Integrated	GT
 2008	An automatic maximum gain normalization technique with applications to audio mixing	E. Perez Gonzalez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=14541	No	Level	GT
