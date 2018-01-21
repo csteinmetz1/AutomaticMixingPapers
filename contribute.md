@@ -4,7 +4,7 @@ Making contributions to the repo is simple.
 
 First fork the repo and then clone to a local directory. 
 ```
-git clone https://github.com/csteinmetz1/AutomaticMixingPapers.git
+git clone https://github.com/YOUR-USERNAME/AutomaticMixingPapers.git
 ```
 Then open `mixingpapers.tsv` and add the following attributes on a new line
 ```
@@ -14,6 +14,8 @@ Save the file and then run the python script which will update the files.
 ```
 python mixingpapers.py
 ```
+If everything goes well, stage and commit your changes, then push them to your fork.
+
 Finally make a pull request with your changes after successfully updating the files.
 
 ### Some notes
