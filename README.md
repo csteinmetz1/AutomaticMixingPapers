@@ -46,6 +46,7 @@ If related code or additional resources are available for the publication a link
 |2014|[A cross-adaptive dynamic spectral panning technique](http://www.dafx14.fau.de/papers/dafx14_pedro_d._pestana_a_cross_adaptive_dynamic_.pdf)|P. D. Pestana and J. D. Reiss|GT|No|
 |2012|[An autonomous system for multitrack stereo pan positioning](http://www.eecs.qmul.ac.uk/~josh/documents/MansbridgeFinnReiss-AES133-Autonomoussystemformultitrackstereopositioning.pdf)|S. Mansbridge, S. Finn, and J. D. Reiss|KE|No|
 |2010|[A real-time semiautonomous audio panning system for music mixing](https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895)|E. Perez Gonzalez and J. D. Reiss|GT|No|
+|2007|[Automatic mixing: live downmixing stereo panner](http://dafx.labri.fr/main/papers/p063.pdf)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 ## Equalization
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
@@ -94,7 +95,7 @@ Making contributions to the repo is simple.
 
 First fork the repo and then clone to a local directory. 
 ```
-git clone https://github.com/csteinmetz1/AutomaticMixingPapers.git
+git clone https://github.com/YOUR-USERNAME/AutomaticMixingPapers.git
 ```
 Then open `mixingpapers.tsv` and add the following attributes on a new line
 ```
@@ -104,6 +105,8 @@ Save the file and then run the python script which will update the files.
 ```
 python mixingpapers.py
 ```
+If everything goes well, stage and commit your changes, then push them to your fork.
+
 Finally make a pull request with your changes after successfully updating the files.
 
 ### Some notes

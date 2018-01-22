@@ -39,3 +39,4 @@ Year	Title	Authors	Paper	Resources	Category	Approach
 2008	Improved control for selective minimization of masking using interchannel dependancy effects	E. Perez Gonzalez and J. D. Reiss	http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf	No	Integrated	GT
 2008	An automatic maximum gain normalization technique with applications to audio mixing	E. Perez Gonzalez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=14541	No	Level	GT
 2008	A framework for automatic mixing using timbral similarity measures and genetic optimization	B. Kolasinski	http://www.aes.org/e-lib/browse.cfm?elib=14626	http://www.nyu.edu/projects/mtr/	Level	ML
+2007	Automatic mixing: live downmixing stereo panner	E. Perez Gonzalez and J. D. Reiss	http://dafx.labri.fr/main/papers/p063.pdf	No	Panning	GT
