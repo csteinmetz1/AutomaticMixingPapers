@@ -73,6 +73,7 @@ If related code or additional resources are available for the publication a link
 ## Integrated
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2018|[Automatic minimisation of masking in multitrack audio using subgroups](https://arxiv.org/abs/1803.09960)|D. Ronan, Z. Ma, P. Mc Namara, H. Gunes, and J. D. Reiss|GT|[Yes](https://code.soundsoftware.ac.uk/projects/automatic-minimisation-of-masking-in-multitrack-audio-using-subgroups)|
 |2017|[Towards an automated multitrack mixing tool using answer set programming](http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf)|F. Everardo|KE|No|
 |2017|[Analysis and prediction of the audio feature space when mixing raw recordings into individual stems](http://www.aes.org/e-lib/browse.cfm?elib=19245)|M. A. Martínez Ramírez and J. D. Reiss|ML|[Yes](https://github.com/mchijmma/audioFeatures-stemMixing)|
 |2016|[New sonorities for jazz recordings: Separation and mixing using deep neural networks](http://c4dm.eecs.qmul.ac.uk/events/wimp2/Mimilakis.pdf)|S. I. Mimilakis et al.|ML|[Yes](https://github.com/Js-Mim/aes_wimp)|

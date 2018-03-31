@@ -1,4 +1,5 @@
 Year	Title	Authors	Paper	Resources	Category	Approach
+2018	Automatic minimisation of masking in multitrack audio using subgroups	D. Ronan, Z. Ma, P. Mc Namara, H. Gunes, and J. D. Reiss	https://arxiv.org/abs/1803.09960	https://code.soundsoftware.ac.uk/projects/automatic-minimisation-of-masking-in-multitrack-audio-using-subgroups	Integrated	GT
 2017	Towards an automated multitrack mixing tool using answer set programming	F. Everardo	http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf	No	Integrated	KE
 2017	Intelligent multitrack reverberation based on hinge-loss markov random field	A. L. Benito and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18766	https://code.soundsoftware.ac.uk/projects/multitrackreverb	Reverb	ML
 2017	Analysis and prediction of the audio feature space when mixing raw recordings into individual stems	M. A. Martínez Ramírez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=19245	https://github.com/mchijmma/audioFeatures-stemMixing	Integrated	ML
