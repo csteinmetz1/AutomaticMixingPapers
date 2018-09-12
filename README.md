@@ -50,6 +50,7 @@ If related code or additional resources are available for the publication a link
 ## Equalization
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2018|[End-to-end equalization with convolutional neural networks](https://marquetem.files.wordpress.com/2018/09/end-end-equalization-martinez_reiss.pdf)|M. A. Martínez Ramírez and J. D. Reiss|ML|No|
 |2015|[Autonomous multitrack equalization based on masking reduction](http://www.eecs.qmul.ac.uk/~josh/documents/2015/Hafezi%20Reiss%20-%202015.pdf)|S. Hafezi and J. D. Reiss|GT|No|
 |2013|[Automated tonal balance enhancement for audio mastering applications](http://www.aes.org/e-lib/browse.cfm?elib=16737)|S. I. Mimilakis et al|GT|No|
 |2013|[Implementation of an intelligent equalization tool using Yule-Walker for music mixing and mastering](http://www.eecs.qmul.ac.uk/~josh/documents/Ma%20Reiss-%20Implementation%20of%20an%20Intelligent%20Equalization%20Tool%20Using%20Yule-Walker%20for%20Music%20Mixing%20and%20Mastering.pdf)|Z. Ma, J. D. Reiss, and D. A. A. Black|KE|No|

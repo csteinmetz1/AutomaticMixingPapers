@@ -2,6 +2,7 @@ import csv
 import operator
 import matplotlib.pyplot as plt
 import numpy as np
+from collections import OrderedDict
 
 def calculate_statistics(filename):
     years = {'2007' : 0, '2008' : 0, '2009' : 0, '2010' : 0,
@@ -160,12 +161,12 @@ def sort_papers_by_year(filename):
 
 def build_readme(filename):
     # define dict of section holders
-    sections = {'Level' : "", 
+    sections = OrderedDict({'Level' : "", 
                 'Panning' : "",
                 'Equalization' : "",
                 'Compression' : "",
                 'Reverb' : "",
-                'Integrated' : ""}
+                'Integrated' : ""})
 
     with open(filename) as mixing:
         mixing = csv.DictReader(mixing, dialect='excel-tab')
@@ -175,6 +176,7 @@ def build_readme(filename):
         
         # initalize table for each section
         for section in sections:
+            print(section)
             sections[section] = "## " + section + "\n|%s|%s|%s|%s|%s|\n" %(f[0], f[1], f[2], f[6], f[4]) + "|---|---|---|---|---|\n"
 
         for entry in mixing:
