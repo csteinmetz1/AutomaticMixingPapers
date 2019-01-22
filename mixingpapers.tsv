@@ -1,4 +1,7 @@
 Year	Title	Authors	Paper	Resources	Category	Approach
+2018  Towards a Semantic Web Representation and Application of Audio Mixing Rules D. Moffat, F. Thalmann and M. B. Sandler https://research.hud.ac.uk/media/assets/document/research/3-MoffatThalmannSandlerWIMP2018.pdf  No Integrated KE
+2018  Automatic Mixing of Multitrack Material Using Modified Loudness Models  S. Fenton http://www.aes.org/e-lib/browse.cfm?conv=145&papernum=10041 No  Level KE
+2018  Adaptive Ballistics Control of Dynamic Range Compression for Percussive Tracks  D. Moffat and M. B. Sandler http://davemoffat.com/wp/wp-content/uploads/2018/11/19748.pdf https://github.com/djmoffat/intelligentCompressor Compression KE
 2018	End-to-end equalization with convolutional neural networks	M. A. Martínez Ramírez and J. D. Reiss	https://marquetem.files.wordpress.com/2018/09/end-end-equalization-martinez_reiss.pdf	No	Equalization	ML
 2018	Automatic minimisation of masking in multitrack audio using subgroups	D. Ronan, Z. Ma, P. Mc Namara, H. Gunes, and J. D. Reiss	https://arxiv.org/abs/1803.09960	https://code.soundsoftware.ac.uk/projects/automatic-minimisation-of-masking-in-multitrack-audio-using-subgroups	Integrated	GT
 2017	Towards an automated multitrack mixing tool using answer set programming	F. Everardo	http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf	No	Integrated	KE
