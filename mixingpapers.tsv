@@ -1,12 +1,15 @@
 Year	Title	Authors	Paper	Resources	Category	Approach
+2019	Background Ducking to Produce Esthetically Pleasing Audio for TV with Clear Speech		M. Torcoli, A. Freke-Morin, J. Paulus, C. Simon, B. Shirley	No	Level	KE
+2019	Automatic Mixing Level Balancing Enhanced through Source Interference Identification	D. Moffat and M. B. Sandler	http://www.aes.org/e-lib/browse.cfm?elib=20355	No	Level	GT
+2019	An Automatic Mixing System for Multitrack Spatialization for Stereo Based on Unmasking and Best Panning Practices	A. Tom, J.D. Reiss, P. Depalle	http://www.aes.org/e-lib/browse.cfm?elib=20311	No	Panning	KE
 2018	Towards a Semantic Web Representation and Application of Audio Mixing Rules	D. Moffat, F. Thalmann and M. B. Sandler	https://research.hud.ac.uk/media/assets/document/research/3-MoffatThalmannSandlerWIMP2018.pdf	No	Integrated	KE
 2018	Automatic Mixing of Multitrack Material Using Modified Loudness Models	S. Fenton	http://www.aes.org/e-lib/browse.cfm?conv=145&papernum=10041	No	Level	KE
 2018	Adaptive Ballistics Control of Dynamic Range Compression for Percussive Tracks	D. Moffat and M. B. Sandler	http://davemoffat.com/wp/wp-content/uploads/2018/11/19748.pdf	https://github.com/djmoffat/intelligentCompressor	Compression	KE
-2018	End-to-end equalization with convolutional neural networks	M. A. Mart√≠nez Ram√≠rez and J. D. Reiss	https://marquetem.files.wordpress.com/2018/09/end-end-equalization-martinez_reiss.pdf	No	Equalization	ML
+2018	End-to-end equalization with convolutional neural networks	M. A. MartÃ_nez RamÃ_rez and J. D. Reiss	https://marquetem.files.wordpress.com/2018/09/end-end-equalization-martinez_reiss.pdf	No	Equalization	ML
 2018	Automatic minimisation of masking in multitrack audio using subgroups	D. Ronan, Z. Ma, P. Mc Namara, H. Gunes, and J. D. Reiss	https://arxiv.org/abs/1803.09960	https://code.soundsoftware.ac.uk/projects/automatic-minimisation-of-masking-in-multitrack-audio-using-subgroups	Integrated	GT
 2017	Towards an automated multitrack mixing tool using answer set programming	F. Everardo	http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf	No	Integrated	KE
 2017	Intelligent multitrack reverberation based on hinge-loss markov random field	A. L. Benito and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18766	https://code.soundsoftware.ac.uk/projects/multitrackreverb	Reverb	ML
-2017	Analysis and prediction of the audio feature space when mixing raw recordings into individual stems	M. A. Mart√≠nez Ram√≠rez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=19245	https://github.com/mchijmma/audioFeatures-stemMixing	Integrated	ML
+2017	Analysis and prediction of the audio feature space when mixing raw recordings into individual stems	M. A. MartÃ_nez RamÃ_rez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=19245	https://github.com/mchijmma/audioFeatures-stemMixing	Integrated	ML
 2017	A machine learning approach to application of intelligent artificial reverberation	E. T. Chourdakis and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18543	https://code.soundsoftware.ac.uk/projects/chourdakisreiss2016	Reverb	ML
 2017	Automatic masking reduction in balance mixes using evolutionary computing	N. Jillings, R. Stables	http://www.aes.org/e-lib/browse.cfm?elib=19210	No	Level	ML
 2016	Automatic control of a digital reverberation effect using hybrid models	E. T. Chourdakis and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18090	No	Reverb	ML
@@ -16,7 +19,7 @@ Year	Title	Authors	Paper	Resources	Category	Approach
 2015	Adaptive audio reproduction using personalized compression	A. Mason et al.	https://www.eecs.qmul.ac.uk/~josh/documents/2015/Mason%20et%20al%20-%20AES57%20-%202015.pdf	No	Compression	GT
 2015	Autonomous multitrack equalization based on masking reduction	S. Hafezi and J. D. Reiss	http://www.eecs.qmul.ac.uk/~josh/documents/2015/Hafezi%20Reiss%20-%202015.pdf	No	Equalization	GT
 2015	Intelligent multitrack dynamic range compression	Z. Ma et al.	http://www.aes.org/e-lib/browse.cfm?elib=17821	No	Compression	KE
-2015	New sonorities for early jazz recordings using sound source separation and automatic mixing tools	D. Matz, E. Cano, and J. Abe√üer	http://ismir2015.uma.es/articles/190_Paper.pdf	No	Integrated	GT
+2015	New sonorities for early jazz recordings using sound source separation and automatic mixing tools	D. Matz, E. Cano, and J. AbeÃŸer	http://ismir2015.uma.es/articles/190_Paper.pdf	No	Integrated	GT
 2015	Comparison of loudness features for automatic level adjustment in mixing	G. Wichern et al.	http://www.aes.org/e-lib/browse.cfm?elib=17928	No	Level	GT
 2014	The mathematics of mixing	M. J. Terrell, A. Simpson, and M. Sandler	http://www.aes.org/tmpFiles/elib/20171227/17081.pdf	No	Level	GT
 2014	A cross-adaptive dynamic spectral panning technique	P. D. Pestana and J. D. Reiss	http://www.dafx14.fau.de/papers/dafx14_pedro_d._pestana_a_cross_adaptive_dynamic_.pdf	No	Panning	GT
