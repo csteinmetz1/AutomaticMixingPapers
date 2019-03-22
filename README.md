@@ -57,7 +57,7 @@ If related code or additional resources are available for the publication a link
 ## Equalization
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
-|2018|[End-to-end equalization with convolutional neural networks](https://marquetem.files.wordpress.com/2018/09/end-end-equalization-martinez_reiss.pdf)|M. A. MartÌ_nez RamÌ_rez and J. D. Reiss|ML|No|
+|2018|[End-to-end equalization with convolutional neural networks](https://marquetem.files.wordpress.com/2018/09/end-end-equalization-martinez_reiss.pdf)|M. A. Martínez Ramírez and J. D. Reiss|ML|No|
 |2015|[Autonomous multitrack equalization based on masking reduction](http://www.eecs.qmul.ac.uk/~josh/documents/2015/Hafezi%20Reiss%20-%202015.pdf)|S. Hafezi and J. D. Reiss|GT|No|
 |2013|[Automated tonal balance enhancement for audio mastering applications](http://www.aes.org/e-lib/browse.cfm?elib=16737)|S. I. Mimilakis et al|GT|No|
 |2013|[Implementation of an intelligent equalization tool using Yule-Walker for music mixing and mastering](http://www.eecs.qmul.ac.uk/~josh/documents/Ma%20Reiss-%20Implementation%20of%20an%20Intelligent%20Equalization%20Tool%20Using%20Yule-Walker%20for%20Music%20Mixing%20and%20Mastering.pdf)|Z. Ma, J. D. Reiss, and D. A. A. Black|KE|No|
@@ -82,7 +82,7 @@ If related code or additional resources are available for the publication a link
 |2018|[Towards a Semantic Web Representation and Application of Audio Mixing Rules](https://research.hud.ac.uk/media/assets/document/research/3-MoffatThalmannSandlerWIMP2018.pdf)|D. Moffat, F. Thalmann and M. B. Sandler|KE|No|
 |2018|[Automatic minimisation of masking in multitrack audio using subgroups](https://arxiv.org/abs/1803.09960)|D. Ronan, Z. Ma, P. Mc Namara, H. Gunes, and J. D. Reiss|GT|[Yes](https://code.soundsoftware.ac.uk/projects/automatic-minimisation-of-masking-in-multitrack-audio-using-subgroups)|
 |2017|[Towards an automated multitrack mixing tool using answer set programming](http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf)|F. Everardo|KE|No|
-|2017|[Analysis and prediction of the audio feature space when mixing raw recordings into individual stems](http://www.aes.org/e-lib/browse.cfm?elib=19245)|M. A. MartÌ_nez RamÌ_rez and J. D. Reiss|ML|[Yes](https://github.com/mchijmma/audioFeatures-stemMixing)|
+|2017|[Analysis and prediction of the audio feature space when mixing raw recordings into individual stems](http://www.aes.org/e-lib/browse.cfm?elib=19245)|M. A. Martínez Ramírez and J. D. Reiss|ML|[Yes](https://github.com/mchijmma/audioFeatures-stemMixing)|
 |2016|[New sonorities for jazz recordings: Separation and mixing using deep neural networks](http://c4dm.eecs.qmul.ac.uk/events/wimp2/Mimilakis.pdf)|S. I. Mimilakis et al.|ML|[Yes](https://github.com/Js-Mim/aes_wimp)|
 |2015|[New sonorities for early jazz recordings using sound source separation and automatic mixing tools](http://ismir2015.uma.es/articles/190_Paper.pdf)|D. Matz, E. Cano, and J. AbeÌÙer|GT|No|
 |2013|[A knowledge-engineered autonomous mixing system](http://www.aes.org/e-lib/browse.cfm?elib=17011)|B. De Man and J. D. Reiss|KE|No|
