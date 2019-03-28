@@ -3,7 +3,6 @@ import operator
 import matplotlib.pyplot as plt
 import numpy as np
 from collections import OrderedDict
-import pdb
 
 def calculate_statistics(filename):
     years = {'2007' : 0, '2008' : 0, '2009' : 0, '2010' : 0,
@@ -147,7 +146,7 @@ def calculate_statistics(filename):
     plt.savefig('figs/categories_breakdown.png',  transparent=True)
 
 def sort_papers_by_year(filename):
-    with open(filename, "rU+") as mixing:
+    with open(filename, "r+") as mixing:
         mixing_tsv = csv.DictReader(mixing, dialect='excel-tab')
         f = mixing_tsv.fieldnames
 
