@@ -7,7 +7,8 @@ from collections import OrderedDict
 def calculate_statistics(filename):
     years = {'2007' : 0, '2008' : 0, '2009' : 0, '2010' : 0,
              '2011' : 0, '2012' : 0, '2013' : 0, '2014' : 0,
-             '2015' : 0, '2016' : 0, '2017' : 0, '2018' : 0}
+             '2015' : 0, '2016' : 0, '2017' : 0, '2018' : 0,
+             '2019' : 0}
     
     categories = {'Level' : 0, 
                   'Panning' : 0,
@@ -34,7 +35,6 @@ def calculate_statistics(filename):
     with open(filename, "r+") as mixing:
         mixing_tsv = csv.DictReader(mixing, dialect='excel-tab')
         f = mixing_tsv.fieldnames
-
         for entry in mixing_tsv:
             # get attributes from table
             year      = entry['Year']

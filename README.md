@@ -23,20 +23,11 @@ A number of different approaches have been employed to address the research prob
 ### Resources
 If related code or additional resources are available for the publication a link is provided. 
 
-## Compression
-|Year|Title|Authors|Approach|Resources|
-|---|---|---|---|---|
-|2018|[Adaptive Ballistics Control of Dynamic Range Compression for Percussive Tracks](http://davemoffat.com/wp/wp-content/uploads/2018/11/19748.pdf)|D. Moffat and M. B. Sandler|KE|[Yes](https://github.com/djmoffat/intelligentCompressor)|
-|2016|[Deep neural networks for dynamic range compression in mastering applications](http://www.aes.org/e-lib/browse.cfm?elib=18237)|S. I. Mimilakis et al.|ML|No|
-|2015|[Adaptive audio reproduction using personalized compression](https://www.eecs.qmul.ac.uk/~josh/documents/2015/Mason%20et%20al%20-%20AES57%20-%202015.pdf)|A. Mason et al.|GT|No|
-|2015|[Intelligent multitrack dynamic range compression](http://www.aes.org/e-lib/browse.cfm?elib=17821)|Z. Ma et al.|KE|No|
-|2014|[A statistical approach to automated offline dynamic processing in the audio mastering process](http://www.dafx14.fau.de/papers/dafx14_marcel_hilsamer_a_statistical_approach_to.pdf)|M. Hilsamer and S. Herzog|GT|No|
-|2013|[Parameter automation in a dynamic range compressor](http://www.aes.org/e-lib/browse.cfm?elib=16965)|D. Giannoulis, M. Massberg, and J. D. Reiss|KE|No|
-|2012|[An autonomous method for multi-track dynamic range compression](https://www.dafx12.york.ac.uk/papers/dafx12_submission_6.pdf)|J. A. Maddams, S. Finn, and J. D. Reiss|GT|No|
-|2010|[Automatic noise gate settings for drum recordings containing bleed from secondary sources](https://dl.acm.org/citation.cfm?id=1972713)|M. J. Terrell, J. D. Reiss|KE|No|
 ## Level
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2019|[Background Ducking to Produce Esthetically Pleasing Audio for TV with Clear Speech](http://www.aes.org/e-lib/browse.cfm?elib=20308)|M. Torcoli, A. Freke-Morin, J. Paulus, C. Simon, B. Shirley|KE|No|
+|2019|[Automatic Mixing Level Balancing Enhanced through Source Interference Identification](http://www.aes.org/e-lib/browse.cfm?elib=20355)|D. Moffat and M. B. Sandler|GT|No|
 |2018|[Automatic Mixing of Multitrack Material Using Modified Loudness Models](http://www.aes.org/e-lib/browse.cfm?conv=145&papernum=10041)|S. Fenton|KE|No|
 |2017|[Automatic masking reduction in balance mixes using evolutionary computing](http://www.aes.org/e-lib/browse.cfm?elib=19210)|N. Jillings, R. Stables|ML|No|
 |2016|[An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge](http://usir.salford.ac.uk/44278/1/Wilson.pdf)|A. Wilson and B. Fazenda|ML|No|
@@ -52,6 +43,14 @@ If related code or additional resources are available for the publication a link
 |2009|[Automatic monitor mixing for live musical performance](http://www.aes.org/e-lib/browse.cfm?elib=15229)|M. J. Terrell and J. D. Reiss|GT|No|
 |2008|[An automatic maximum gain normalization technique with applications to audio mixing](http://www.aes.org/e-lib/browse.cfm?elib=14541)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 |2008|[A framework for automatic mixing using timbral similarity measures and genetic optimization](http://www.aes.org/e-lib/browse.cfm?elib=14626)|B. Kolasinski|ML|[Yes](http://www.nyu.edu/projects/mtr/)|
+## Panning
+|Year|Title|Authors|Approach|Resources|
+|---|---|---|---|---|
+|2019|[An Automatic Mixing System for Multitrack Spatialization for Stereo Based on Unmasking and Best Panning Practices](http://www.aes.org/e-lib/browse.cfm?elib=20311)|A. Tom, J.D. Reiss, P. Depalle|KE|No|
+|2014|[A cross-adaptive dynamic spectral panning technique](http://www.dafx14.fau.de/papers/dafx14_pedro_d._pestana_a_cross_adaptive_dynamic_.pdf)|P. D. Pestana and J. D. Reiss|GT|No|
+|2012|[An autonomous system for multitrack stereo pan positioning](http://www.eecs.qmul.ac.uk/~josh/documents/MansbridgeFinnReiss-AES133-Autonomoussystemformultitrackstereopositioning.pdf)|S. Mansbridge, S. Finn, and J. D. Reiss|KE|No|
+|2010|[A real-time semiautonomous audio panning system for music mixing](https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895)|E. Perez Gonzalez and J. D. Reiss|GT|No|
+|2007|[Automatic mixing: live downmixing stereo panner](http://dafx.labri.fr/main/papers/p063.pdf)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 ## Equalization
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
@@ -60,13 +59,17 @@ If related code or additional resources are available for the publication a link
 |2013|[Automated tonal balance enhancement for audio mastering applications](http://www.aes.org/e-lib/browse.cfm?elib=16737)|S. I. Mimilakis et al|GT|No|
 |2013|[Implementation of an intelligent equalization tool using Yule-Walker for music mixing and mastering](http://www.eecs.qmul.ac.uk/~josh/documents/Ma%20Reiss-%20Implementation%20of%20an%20Intelligent%20Equalization%20Tool%20Using%20Yule-Walker%20for%20Music%20Mixing%20and%20Mastering.pdf)|Z. Ma, J. D. Reiss, and D. A. A. Black|KE|No|
 |2009|[Automatic equalization of multichannel audio using cross-adaptive methods](http://www.aes.org/e-lib/browse.cfm?elib=15026)|E. Perez Gonzalez and J. D. Reiss|GT|No|
-## Panning
+## Compression
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
-|2014|[A cross-adaptive dynamic spectral panning technique](http://www.dafx14.fau.de/papers/dafx14_pedro_d._pestana_a_cross_adaptive_dynamic_.pdf)|P. D. Pestana and J. D. Reiss|GT|No|
-|2012|[An autonomous system for multitrack stereo pan positioning](http://www.eecs.qmul.ac.uk/~josh/documents/MansbridgeFinnReiss-AES133-Autonomoussystemformultitrackstereopositioning.pdf)|S. Mansbridge, S. Finn, and J. D. Reiss|KE|No|
-|2010|[A real-time semiautonomous audio panning system for music mixing](https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895)|E. Perez Gonzalez and J. D. Reiss|GT|No|
-|2007|[Automatic mixing: live downmixing stereo panner](http://dafx.labri.fr/main/papers/p063.pdf)|E. Perez Gonzalez and J. D. Reiss|GT|No|
+|2018|[Adaptive Ballistics Control of Dynamic Range Compression for Percussive Tracks](http://davemoffat.com/wp/wp-content/uploads/2018/11/19748.pdf)|D. Moffat and M. B. Sandler|KE|[Yes](https://github.com/djmoffat/intelligentCompressor)|
+|2016|[Deep neural networks for dynamic range compression in mastering applications](http://www.aes.org/e-lib/browse.cfm?elib=18237)|S. I. Mimilakis et al.|ML|No|
+|2015|[Adaptive audio reproduction using personalized compression](https://www.eecs.qmul.ac.uk/~josh/documents/2015/Mason%20et%20al%20-%20AES57%20-%202015.pdf)|A. Mason et al.|GT|No|
+|2015|[Intelligent multitrack dynamic range compression](http://www.aes.org/e-lib/browse.cfm?elib=17821)|Z. Ma et al.|KE|No|
+|2014|[A statistical approach to automated offline dynamic processing in the audio mastering process](http://www.dafx14.fau.de/papers/dafx14_marcel_hilsamer_a_statistical_approach_to.pdf)|M. Hilsamer and S. Herzog|GT|No|
+|2013|[Parameter automation in a dynamic range compressor](http://www.aes.org/e-lib/browse.cfm?elib=16965)|D. Giannoulis, M. Massberg, and J. D. Reiss|KE|No|
+|2012|[An autonomous method for multi-track dynamic range compression](https://www.dafx12.york.ac.uk/papers/dafx12_submission_6.pdf)|J. A. Maddams, S. Finn, and J. D. Reiss|GT|No|
+|2010|[Automatic noise gate settings for drum recordings containing bleed from secondary sources](https://dl.acm.org/citation.cfm?id=1972713)|M. J. Terrell, J. D. Reiss|KE|No|
 ## Reverb
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
