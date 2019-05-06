@@ -62,6 +62,7 @@ If related code or additional resources are available for the publication a link
 ## Compression
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2019|[A Feature Learning Siamese Model for Intelligent Control of the Dynamic Range Compressor](https://arxiv.org/abs/1905.01022)|D. Sheng and G. Fazekas|ML|No|
 |2018|[Adaptive Ballistics Control of Dynamic Range Compression for Percussive Tracks](http://davemoffat.com/wp/wp-content/uploads/2018/11/19748.pdf)|D. Moffat and M. B. Sandler|KE|[Yes](https://github.com/djmoffat/intelligentCompressor)|
 |2016|[Deep neural networks for dynamic range compression in mastering applications](http://www.aes.org/e-lib/browse.cfm?elib=18237)|S. I. Mimilakis et al.|ML|No|
 |2015|[Adaptive audio reproduction using personalized compression](https://www.eecs.qmul.ac.uk/~josh/documents/2015/Mason%20et%20al%20-%20AES57%20-%202015.pdf)|A. Mason et al.|GT|No|
