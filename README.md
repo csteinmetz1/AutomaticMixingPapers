@@ -94,11 +94,11 @@ If related code or additional resources are available for the publication a link
 |2010|[Automatic music production system employing probabilistic expert systems](http://www.aes.org/e-lib/browse.cfm?elib=15677)|R. Gang, G. Bocko, J. Lundberg, D. Headlam, and M. F. Bocko|KE|No|
 |2008|[Improved control for selective minimization of masking using interchannel dependancy effects](http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 # Statistics
-![pubs_by_year](figs/papers_by_year.png)
-![categories_by_year](figs/categories_by_year.png)
-![approaches_by_year](figs/approaches_by_year.png)
-![categories](figs/categories_breakdown.png)
-![approaches](figs/approaches_breakdown.png)
+![pubs_by_year](figs/papers_by_year.svg)
+![categories_by_year](figs/categories_by_year.svg)
+![approaches_by_year](figs/approaches_by_year.svg)
+![categories](figs/categories_breakdown.svg)
+![approaches](figs/approaches_breakdown.svg)
 ## Acknowledgments
 Special thanks to [Brecht De Man](http://www.brechtdeman.com/index.html), [Joshua D. Reiss](http://www.eecs.qmul.ac.uk/~josh/), and [Ryan Stables](http://www.ryanstables.co.uk) as their publication [Ten Years of Automatic Mixing](http://www.brechtdeman.com/publications/pdf/WIMP3.pdf) served as the foundation for this repository.
 ## Contributing
