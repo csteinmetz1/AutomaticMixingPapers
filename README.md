@@ -26,6 +26,7 @@ If related code or additional resources are available for the publication a link
 ## Level
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2019|[Machine Learning Multitrack Gain Mixing of Drums](http://www.aes.org/e-lib/browse.cfm?elib=20550)|D. Moffat and M. B. Sandler|ML|No|
 |2019|[Background Ducking to Produce Esthetically Pleasing Audio for TV with Clear Speech](http://www.aes.org/e-lib/browse.cfm?elib=20308)|M. Torcoli, A. Freke-Morin, J. Paulus, C. Simon, B. Shirley|KE|No|
 |2019|[Automatic Mixing Level Balancing Enhanced through Source Interference Identification](http://www.aes.org/e-lib/browse.cfm?elib=20355)|D. Moffat and M. B. Sandler|GT|No|
 |2018|[Real-time multi-track mixing for live performance](https://zenodo.org/record/2550903)|Joaquín Jiménez-Sauma|GT|[Yes](https://github.com/jjsauma/msmc)|
