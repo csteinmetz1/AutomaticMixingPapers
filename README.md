@@ -26,10 +26,10 @@ If related code or additional resources are available for the publication a link
 ## Level
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2019|[Modelling Experts’ Decisions on Assigning Narrative Importances of Objects in a Radio Drama Mix](http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_19.pdf)|E.T. Chourdakis, L. Ward, M. Paradis, and J.D. Reiss|ML|[Yes](https://github.com/bbc/audio-dafx2019-automatic)|
 |2019|[Machine Learning Multitrack Gain Mixing of Drums](http://www.aes.org/e-lib/browse.cfm?elib=20550)|D. Moffat and M. B. Sandler|ML|No|
 |2019|[Background Ducking to Produce Esthetically Pleasing Audio for TV with Clear Speech](http://www.aes.org/e-lib/browse.cfm?elib=20308)|M. Torcoli, A. Freke-Morin, J. Paulus, C. Simon, B. Shirley|KE|No|
 |2019|[Automatic Mixing Level Balancing Enhanced through Source Interference Identification](http://www.aes.org/e-lib/browse.cfm?elib=20355)|D. Moffat and M. B. Sandler|GT|No|
-|2019|[Modelling Experts’ Decisions on Assigning Narrative Importances of Objects in a Radio Drama Mix](http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_19.pdf)|E.T. Chourdakis, L. Ward, M. Paradis, and J.D. Reiss|ML|[Yes](https://github.com/bbc/audio-dafx2019-automatic)|
 |2018|[Real-time multi-track mixing for live performance](https://zenodo.org/record/2550903)|Joaquín Jiménez-Sauma|GT|[Yes](https://github.com/jjsauma/msmc)|
 |2018|[Automatic Mixing of Multitrack Material Using Modified Loudness Models](http://www.aes.org/e-lib/browse.cfm?conv=145&papernum=10041)|S. Fenton|KE|No|
 |2017|[Automatic masking reduction in balance mixes using evolutionary computing](http://www.aes.org/e-lib/browse.cfm?elib=19210)|N. Jillings, R. Stables|ML|No|

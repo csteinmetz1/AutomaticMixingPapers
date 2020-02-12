@@ -1,4 +1,5 @@
 Year	Title	Authors	Paper	Resources	Category	Approach
+2019	Modelling Experts’ Decisions on Assigning Narrative Importances of Objects in a Radio Drama Mix	E.T. Chourdakis, L. Ward, M. Paradis, and J.D. Reiss	http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_19.pdf	https://github.com/bbc/audio-dafx2019-automatic	Level	ML
 2019	Machine Learning Multitrack Gain Mixing of Drums	D. Moffat and M. B. Sandler	http://www.aes.org/e-lib/browse.cfm?elib=20550	No	Level	ML
 2019	A Feature Learning Siamese Model for Intelligent Control of the Dynamic Range Compressor	D. Sheng and G. Fazekas	https://arxiv.org/abs/1905.01022	No	Compression	ML
 2019	Background Ducking to Produce Esthetically Pleasing Audio for TV with Clear Speech	M. Torcoli, A. Freke-Morin, J. Paulus, C. Simon, B. Shirley	http://www.aes.org/e-lib/browse.cfm?elib=20308	No	Level	KE
