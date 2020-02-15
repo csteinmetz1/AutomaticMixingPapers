@@ -41,7 +41,8 @@ Year	Title	Authors	Paper	Resources	Category	Approach
 2011	Automatic multi-track mixing using linear dynamical systems	J. Scott et al.	http://music.ece.drexel.edu/files/Navigation/Publications/Scott2011a.pdf	http://music.ece.drexel.edu/research/AutoMix/lds	Level	ML
 2011	Analysis of acoustic features for automated multi-track mixing	J. Scott and Y. E. Kim	http://music.ece.drexel.edu/files/Navigation/Publications/Scott2011b.pdf	No	Level	ML
 2010	Advanced automatic mixing tools for music	E. Perez Gonzalez	https://qmro.qmul.ac.uk/jspui/handle/123456789/614	No	Integrated	GT
-2010	A real-time semiautonomous audio panning system for music mixing	E. Perez Gonzalez and J. D. Reiss	https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895	No	Panning	GT
+
+2010	A real-time semiautonomous audio panning system for music mixing	E. Perez Gonzalez and J. D. Reiss	https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895	No	Panning	GTs
 2010	Automatic music production system employing probabilistic expert systems	R. Gang, G. Bocko, J. Lundberg, D. Headlam, and M. F. Bocko	http://www.aes.org/e-lib/browse.cfm?elib=15677	No	Integrated	KE
 2010	Automatic noise gate settings for drum recordings containing bleed from secondary sources	M. J. Terrell, J. D. Reiss	https://dl.acm.org/citation.cfm?id=1972713	No	Compression	KE
 2009	Automatic gain and fader control for live mixing	E. Perez Gonzalez and J. D. Reiss	https://www.researchgate.net/publication/224086775_Automatic_gain_and_fader_control_for_live_mixing	No	Level	GT

@@ -1,0 +1,233 @@
+{
+  "datasets" : [
+    {
+      "title" : "Automatic mixing: live downmixing stereo panner",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2007,
+      "category" : "Panning",
+      "approach" : "KBS",
+      "pdf" : "http://dafx.labri.fr/main/papers/p063.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "A framework for automatic mixing using timbral similarity measures and genetic optimization",
+      "author" : "B. Kolasinski",
+      "year" : 2008,
+      "category" : "Level",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=14626",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "An automatic maximum gain normalization technique with applications to audio mixing",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2008,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=14541",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Improved control for selective minimization of masking using interchannel dependency effects",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2008,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic equalization of multichannel audio using cross-adaptive methods",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2009,
+      "category" : "Equalization",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=15026",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic monitor mixing for live musical performance",
+      "author" : "M. J. Terrell and J. D. Reiss",
+      "year" : 2009,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=15229",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic gain and fader control for live mixing",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2009,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "https://www.eecs.qmul.ac.uk/~josh/documents/2009/PerezReiss-WASPAA2009-AutomaticGainandFaderControlForLiveMixing_001.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic noise gate settings for drum recordings containing bleed from secondary sources",
+      "author" : "M. J. Terrell and J. D. Reiss",
+      "year" : 2010,
+      "category" : "Compression",
+      "approach" : "KBS",
+      "pdf" : "https://dl.acm.org/citation.cfm?id=1972713",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic music production system employing probabilistic expert systems",
+      "author" : "R. Gang, G. Bocko, J. Lundberg, D. Headlam, and M. F. Bocko",
+      "year" : 2010,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=15677",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "A real-time semiautonomous audio panning system for music mixing",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2010,
+      "category" : "Panning",
+      "approach" : "KBS",
+      "pdf" : "https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "",
+      "author" : "",
+      "year" : 2010,
+      "category" : "",
+      "approach" : "",
+      "pdf" : "",
+      "code" : "",
+      "demo" : ""
+    }
+  ],
+  "columns" : [
+    {"title" : "Title"},
+    {"author" : "Author(s)"},
+    {"year" : "Year"},
+    {"category" : "Category"},
+    {"approach" : "Approach"},
+    {"code" : "Code"},
+    {"demo" : "Demo"}
+  ]
+}
