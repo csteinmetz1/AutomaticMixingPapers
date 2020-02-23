@@ -36,7 +36,17 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/">Home
+            <a class="nav-link" href="/">home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="/stats.html">stats
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contribute.html">contribute
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -48,40 +58,66 @@
   <!-- Page Content -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="mt-5">Automatic mixing papers</h1>
-        <p class="lead">Tracking academic work in the area of automatic multitrack audio mixing.</p>
+      <div class="col-lg-12">
+        <h1 class="mt-5 text-center">Automatic mixing papers</h1>
+        <p class="lead text-center">Tracking academic work in the field of automatic multitrack audio mixing</p>
       </div>
     </div>
+
+    <div class="row mt-3">
+      <div class="col-lg-6">
+        <h3>Categories</h3>
+        <p>Mixing is a complex process carried out by audio engineers during the music production process. 
+          It involves a number of different steps each of which oftentimes has many substeps dependent on the source material and the desired result. 
+          In the literature different systems have been proposed for these different processes. 
+          In order to better categorize the work in this area the following mix processes are identified: 
+          <a href="https://en.wikipedia.org/wiki/Fade_(audio_engineering)#Fader" target="_blank">Level</a>,
+          <a href="https://en.wikipedia.org/wiki/Panning_(audio)" target="_blank">Panning</a>,
+          <a href="https://en.wikipedia.org/wiki/Equalization_(audio)" target="_blank">Equalization</a>,
+          <a href="https://en.wikipedia.org/wiki/Dynamic_range_compression" target="_blank">Compression</a>, and
+          <a href="https://en.wikipedia.org/wiki/Reverberation" target="_blank">Reverb</a>.
+          Systems which incorporate more than one of these processes are labeled as
+          <a href="" target="_blank">Multiple</a>.
+        </p>
+      </div>
+
+      <div class="col-lg-6">
+        <h3>Approaches</h3>
+        <p>Two main approaches in building automatic mixing systems have been addressed in the literature.
+          <a href="https://en.wikipedia.org/wiki/Knowledge-based_systems" target="_blank">Knowledge-based systems (KBS)</a>.
+          These systems generally consist of two components, a knowledge base that generally contains contains expert knowledge 
+          collected from professionals or hand-crafted by the designer, as well as an algorithm for applying this knowledge for a task.
+          <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Machine Learning (ML)</a> approaches differ in that they
+          use algorithms and statistical models directly on data to construct a system for a task. 
+        </p>
+      </div>
+    </div>
+    <p>
+
+    </p>
   </div>
 
   <div class="container">
-    <table>
+    <p class="text-center">Press the buttons below to filter the table of papers.</p>
+    <table class="d-flex justify-content-center" width="100%">
       <tbody>
         <tr>
-          <td><b>Category</b></td>
           <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Level">Level</a></td>
-          <td><a class="toggle-vis btn btn-secondary btn-sm btn-block" data-term="Equalization">Equalization</a></td>
-          <td><a class="toggle-vis btn btn-success btn-sm btn-block" data-term="Compression">Compression</a></td>
-          <td><a class="toggle-vis btn btn-danger btn-sm btn-block" data-term="Panning">Panning</a></td>
-          <td><a class="toggle-vis btn btn-warning btn-sm btn-block" data-term="Reverb">Reverb</a></td>
-          <td><a class="toggle-vis btn btn-info btn-sm btn-block" data-term="Multiple">Multiple</a></td>
-        </tr>
-        <tr>
-          <td><b>Approach</b></td>
-          <td colspan="3"><a class="toggle-vis btn btn-warning btn-sm btn-block" data-term="ML">Machine Learning</a></td>
-          <td colspan="3"><a class="toggle-vis btn btn-light btn-sm btn-block" data-term="KBS">Knowledge-based</a></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td colspan="6"><a class="toggle-vis btn btn-dark btn-sm btn-block" data-term="">Clear</a></td>
+          <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Equalization">Equalization</a></td>
+          <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Compression">Compression</a></td>
+          <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Panning">Panning</a></td>
+          <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Reverb">Reverb</a></td>
+          <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Multiple">Multiple</a></td>
+          <td><a class="toggle-vis btn btn-secondary btn-sm btn-block" data-term="ML">Machine Learning</a></td>
+          <td><a class="toggle-vis btn btn-secondary btn-sm btn-block" data-term="KBS">Knowledge-based</a></td>
+          <td><a class="toggle-vis btn btn-light text-dark btn-sm btn-block" data-term="">Clear</a></td>
         </tr>
       </tbody>
     </table>
 
     <br>
 
-    <table id="dt" class="table stripe hover cell-boarder" cellspacing="0" width="100%">
+    <table id="dt" class="table hover cell-boarder" cellspacing="0" width="100%">
       <tbody>
       </tbody>
     </table>

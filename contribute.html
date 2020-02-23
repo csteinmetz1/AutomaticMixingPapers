@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Automatic mixing papers</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/css/mdb.min.css" rel="stylesheet">
+  <!-- Local CSS styles -->
+  <link href="css/styles.css" rel="stylesheet">
+  <!-- dataTables styling -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"> -->
+  <link href="css/table.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Automatic mixing papers</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="/stats.html">stats
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/contribute.html">contribute
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="mt-5 text-center">Contribute</h1>
+        <p class="lead text-center">Adding additional papers is simple</p>
+        
+        <ol>
+            <li><p>First fork the <a href="https://github.com/csteinmetz1/AutomaticMixingPapers" target="_blank">repo on GitHub.</a></p></li>
+            <li><p>Then clone your fork to a local directory.</p>
+                <p><pre><code>git clone https://github.com/YOUR-USERNAME/AutomaticMixingPapers.git</code></pre></p>
+            </li>
+            <li>Edit the <code>data/datasets.json</code> file and add a new entry, for example:
+                <p><pre><code>{
+    "title" : "A real-time semiautonomous audio panning system for music mixing",
+    "author" : "E. Perez Gonzalez and J. D. Reiss",
+    "year" : 2010,
+    "category" : "Panning",
+    "approach" : "KBS",
+    "pdf" : "https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895",
+    "code" : "",
+    "demo" : ""
+}</code></pre></p>
+            </li>
+            <li><p>Once you are done, stage and commit your changes, then push them to your fork.</p>
+                <p><pre><code>
+    git add data/datasets.json
+    git commit -m "adding panning paper from E. Perez Gonzalez and J. D. Reiss"
+    git push
+                </code></pre></p>
+            </li>
+            <li><p>Finally, go back to the <a href="https://github.com/csteinmetz1/AutomaticMixingPapers" target="_blank">repo onGitHub</a>
+                 and make a pull request with your changes after successfully pushing the changes.</p></li>
+            
+        </ol>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    
+  </div>
+  
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- JQuery dataTables-->
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/js/mdb.min.js"></script>
+  <!-- Table rendering -->
+  <script type="text/javascript" src="js/table.js"></script>
+
+</body>
+
+</html>
+
+

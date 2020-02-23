@@ -48,6 +48,7 @@ $(document).ready(function () {
           a.appendChild(linkText);
           //a.title = datasets[r].name + " " + col;
           a.href = datasets[r]["pdf"];
+          a.target = "_blank";
           cell.appendChild(a);
         }
         else {
