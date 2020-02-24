@@ -22,7 +22,7 @@ var makePlots = function() {
     Plotly.newPlot(pubsByYearPlot, [{
     x: years,
     y: npubs,
-    marker: {color : "#65bbca"},
+    marker: {color : "#A9E8DC"},
     type: "bar" }], {
     margin: { t: 0 } } 
     );

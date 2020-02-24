@@ -36,7 +36,7 @@ $(document).ready(function () {
         }
         else if ((col == "code" || col == "demo") && datasets[r][col] != "")  {
           var a = document.createElement('a');
-          var linkText = document.createTextNode("Link");
+          var linkText = document.createTextNode(col);
           a.appendChild(linkText);
           a.title = datasets[r].name + " " + col;
           a.href = datasets[r][col];
@@ -49,6 +49,7 @@ $(document).ready(function () {
           //a.title = datasets[r].name + " " + col;
           a.href = datasets[r]["pdf"];
           a.target = "_blank";
+          a.classList.add("font-weight-normal");
           cell.appendChild(a);
         }
         else {
