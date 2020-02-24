@@ -243,7 +243,7 @@
     {
       "title" : "A cross-adaptive dynamic spectral panning technique",
       "author" : "P. D. Pestana and J. D. Reiss",
-      "year" : 0,
+      "year" : 2014,
       "category" : "Panning",
       "approach" : "KBS",
       "pdf" : "http://www.dafx14.fau.de/papers/dafx14_pedro_d._pestana_a_cross_adaptive_dynamic_.pdf",
@@ -344,7 +344,7 @@
       "title" : "Automatic control of a digital reverberation effect using hybrid models",
       "author" : "E. T. Chourdakis and J. D. Reiss",
       "year" : 2016,
-      "category" : "Reveb",
+      "category" : "Reverb",
       "approach" : "ML",
       "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=18090",
       "code" : "",
