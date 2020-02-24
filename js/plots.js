@@ -1,17 +1,53 @@
 // first we need to load all of the publication data
 
-let pubs_per_year = {};
+let approachColors = ["#9d3484", "#ec7a8a"];
+let categoryColors = ["#151c53", "#1f347e", "#2b609d", "#3993bd", "#65bbca", "#b6dbc5"];
+
+let pubsByYear = {};
 let years = [];
 let npubs = [];
 
-var makePlots = function() {
-    pubs_by_year = document.getElementById('pubs-by-year');
+let approachCount = {};
+let approaches = [];
+let approachCounts = [];
 
-    Plotly.newPlot( pubs_by_year, [{
+let categoryCount = {};
+let categories = [];
+let categorieCount = [];
+
+var makePlots = function() {
+
+    // top plot - number of pubs per year
+    pubsByYearPlot = document.getElementById("pubs-by-year");
+    Plotly.newPlot(pubsByYearPlot, [{
     x: years,
     y: npubs,
-    type: 'bar' }], {
-    margin: { t: 0 } } );
+    marker: {color : "#65bbca"},
+    type: "bar" }], {
+    margin: { t: 0 } } 
+    );
+
+    // pie chart of different approaches
+    approachBreakdown = document.getElementById("approach-breakdown");
+    Plotly.newPlot(approachBreakdown, [{
+    values: approachCounts,
+    labels: approaches,
+    marker: {colors : approachColors},
+    type: "pie" }], {
+    margin: { t: 0 } } 
+    );
+
+    // pie chart of different categories
+    categoryBreakdown = document.getElementById("category-breakdown");
+    Plotly.newPlot(categoryBreakdown, [{
+    values: categoryCount,
+    labels: categories,
+    marker: {colors : categoryColors},
+    type: "pie" }], {
+    margin: { t: 0 } } 
+    );
+
+    
 }
 
 
@@ -19,15 +55,33 @@ $.getJSON("/data/datasets.json", function( data ) {
     // extract just publication list
     pubs = data.datasets;
     $.each(pubs, function(i, pub){
-        if (pubs_per_year.hasOwnProperty(pub.year)) {
-            pubs_per_year[pub.year] += 1;
+        if (pubsByYear.hasOwnProperty(pub.year)) {
+            pubsByYear[pub.year] += 1;
         }
         else {
-            pubs_per_year[pub.year] = 1;
+            pubsByYear[pub.year] = 1;
+        }
+        if (approachCount.hasOwnProperty(pub.approach)) {
+            approachCount[pub.approach] += 1;
+        }
+        else {
+            approachCount[pub.approach] = 1;
+        }
+        if (categoryCount.hasOwnProperty(pub.category)) {
+            categoryCount[pub.category] += 1;
+        }
+        else {
+            categoryCount[pub.category] = 1;
         }
     })
-    years = Object.keys(pubs_per_year).map(function (x) { return parseInt(x, 10);});
-    npubs = Object.values(pubs_per_year);
+    years = Object.keys(pubsByYear).map(function (x) { return parseInt(x, 10);});
+    npubs = Object.values(pubsByYear);
+
+    approaches = Object.keys(approachCount);
+    approachCounts = Object.values(approachCount);
+
+    categories = Object.keys(categoryCount);
+    categoryCount = Object.values(categoryCount);
 
     makePlots();
 })
