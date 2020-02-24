@@ -24,7 +24,8 @@ var makePlots = function() {
     y: npubs,
     marker: {color : "#A9E8DC"},
     type: "bar" }], {
-    margin: { t: 0 } } 
+    margin: { t: 0 }},
+    {staticPlot: true}
     );
 
     // pie chart of different approaches

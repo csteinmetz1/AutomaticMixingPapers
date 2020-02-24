@@ -40,6 +40,7 @@ $(document).ready(function () {
           a.appendChild(linkText);
           a.title = datasets[r].name + " " + col;
           a.href = datasets[r][col];
+          a.target = "_blank";
           cell.appendChild(a);
         }
         else if (col == "title") {
