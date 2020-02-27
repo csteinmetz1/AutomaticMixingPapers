@@ -8,7 +8,8 @@
       "approach" : "KBS",
       "pdf" : "http://dafx.labri.fr/main/papers/p063.pdf",
       "code" : "",
-      "demo" : ""
+      "demo" : "",
+      "bibtex" : ""
     },
     {
       "title" : "A framework for automatic mixing using timbral similarity measures and genetic optimization",
@@ -517,6 +518,7 @@
     {"year" : "Year"},
     {"category" : "Category"},
     {"approach" : "Approach"},
+    {"bibtex" : "Bibtex"},
     {"code" : "Code"},
     {"demo" : "Demo"}
   ]

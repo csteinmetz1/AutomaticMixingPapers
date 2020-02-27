@@ -1,3 +1,7 @@
+$(document).ready(function() {
+  $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
+
 $(document).ready(function () {
   // load table data from json file
   $.getJSON("/data/datasets.json", function( data ) {
@@ -29,15 +33,23 @@ $(document).ready(function () {
         var cell = row.insertCell(c);
         var col = Object.keys(cols[c])[0];
         // conditional formatting
-        if (col == "description") {
-          cell.innerHTML = datasets[r][col];
-          cell.classList.add("cell");
-          cell.classList.add("expand-maximum-on-hover");
+        if (col == "bibtex") {
+          // load the proper bibtexr file in here
+          var a = document.createElement('a');
+          var linkText = document.createTextNode(col);
+          a.appendChild(linkText);
+          a.setAttribute("class", "btn btn-light btn-sm");
+          a.setAttribute("data-toggle", "tooltip");
+          a.setAttribute("data-placement", "right");
+          a.setAttribute("data-original-title", "Copy")
+          a.setAttribute("value", "bibtex")
+          cell.appendChild(a);
         }
         else if ((col == "code" || col == "demo") && datasets[r][col] != "")  {
           var a = document.createElement('a');
           var linkText = document.createTextNode(col);
           a.appendChild(linkText);
+          a.setAttribute("class", "btn btn-light btn-sm");
           a.title = datasets[r].name + " " + col;
           a.href = datasets[r][col];
           a.target = "_blank";
