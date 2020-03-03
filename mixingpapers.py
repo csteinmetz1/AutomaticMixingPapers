@@ -17,11 +17,12 @@ def calculate_statistics(filename):
                   'Reverb' : 0,
                   'Integrated' : 0}
     
-    approaches = {'GT' : 0, 'KE' : 0, 'ML' : 0}
+    approaches = {'GT' : 0, 'KE' : 0, 'ML' : 0, 'OV' : 0}
 
     approaches_by_year = {'GT' : years.copy(),
                           'KE' : years.copy(),
-                          'ML' : years.copy()}
+                          'ML' : years.copy(),
+                          'OV' : years.copy()}
 
     categories_by_year = {'Level' : years.copy(), 
                           'Panning' : years.copy(),
@@ -36,6 +37,7 @@ def calculate_statistics(filename):
         mixing_tsv = csv.DictReader(mixing, dialect='excel-tab')
         f = mixing_tsv.fieldnames
         for entry in mixing_tsv:
+            print entry
             # get attributes from table
             year      = entry['Year']
             category  = entry['Category']
@@ -119,7 +121,7 @@ def calculate_statistics(filename):
 
     # plot pie chart of approaches
     plt.figure(3)
-    labels = ['Grounded Theory', 'Knowledge Engineering', 'Machine Learning']
+    labels = ['Grounded Theory', 'Knowledge Engineering', 'Machine Learning', 'Overview']
     sizes = approaches.values()
     colors = [GT_color, KE_color, ML_color]
     ax = plt.subplot(111)

@@ -1,4 +1,8 @@
 Year	Title	Authors	Paper	Resources	Category	Approach
+2019	Approaches in Intelligent Music Production	D. Moffat and M. B. Sandler	https://www.mdpi.com/541536	No	Integrated	OV
+2019	Intelligent Music Production	B. De Man and J.D. Reiss and R. Stables	https://www.routledge.com/Intelligent-Music-Production-1st-Edition/De-Man-Stables-Reiss/p/book/9781138055193	No	Integrated	OV
+2019	An Automated Approach to the Application of Reverberation	D. Moffat and M. B. Sandler	http://www.aes.org/e-lib/browse.cfm?elib=20637	https://github.com/djmoffat/AutoReverb	Reverb	KE
+2019	Machine Learning Multitrack Gain Mixing of Drums	D. Moffat and M. B. Sandler	http://www.aes.org/e-lib/browse.cfm?elib=20550	https://djmoffat.github.io/MachineLearningDrumGainMixing/	Level	ML
 2019	Background Ducking to Produce Esthetically Pleasing Audio for TV with Clear Speech	M. Torcoli, A. Freke-Morin, J. Paulus, C. Simon, B. Shirley	http://www.aes.org/e-lib/browse.cfm?elib=20308	No	Level	KE
 2019	Automatic Mixing Level Balancing Enhanced through Source Interference Identification	D. Moffat and M. B. Sandler	http://www.aes.org/e-lib/browse.cfm?elib=20355	No	Level	GT
 2019	An Automatic Mixing System for Multitrack Spatialization for Stereo Based on Unmasking and Best Panning Practices	A. Tom, J.D. Reiss, P. Depalle	http://www.aes.org/e-lib/browse.cfm?elib=20311	No	Panning	KE
@@ -12,6 +16,7 @@ Year	Title	Authors	Paper	Resources	Category	Approach
 2017	Analysis and prediction of the audio feature space when mixing raw recordings into individual stems	M. A. Martínez Ramírez and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=19245	https://github.com/mchijmma/audioFeatures-stemMixing	Integrated	ML
 2017	A machine learning approach to application of intelligent artificial reverberation	E. T. Chourdakis and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18543	https://code.soundsoftware.ac.uk/projects/chourdakisreiss2016	Reverb	ML
 2017	Automatic masking reduction in balance mixes using evolutionary computing	N. Jillings, R. Stables	http://www.aes.org/e-lib/browse.cfm?elib=19210	No	Level	ML
+2017	Ten Years of Automatic Mixing	B. De Man and J.D. Reiss and R. Stables	http://www.brechtdeman.com/publications/pdf/WIMP3.pdf	No 	Integrated	OV
 2016	Automatic control of a digital reverberation effect using hybrid models	E. T. Chourdakis and J. D. Reiss	http://www.aes.org/e-lib/browse.cfm?elib=18090	No	Reverb	ML
 2016	Deep neural networks for dynamic range compression in mastering applications	S. I. Mimilakis et al.	http://www.aes.org/e-lib/browse.cfm?elib=18237	No	Compression	ML
 2016	New sonorities for jazz recordings: Separation and mixing using deep neural networks	S. I. Mimilakis et al.	http://c4dm.eecs.qmul.ac.uk/events/wimp2/Mimilakis.pdf	https://github.com/Js-Mim/aes_wimp	Integrated	ML
