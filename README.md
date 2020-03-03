@@ -26,6 +26,7 @@ If related code or additional resources are available for the publication a link
 ## Compression
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
+|2019|[A Feature Learning Siamese Model for Intelligent Control of the Dynamic Range Compressor](https://arxiv.org/abs/1905.01022)|D. Sheng and G. Fazekas|ML|No|
 |2018|[Adaptive Ballistics Control of Dynamic Range Compression for Percussive Tracks](http://davemoffat.com/wp/wp-content/uploads/2018/11/19748.pdf)|D. Moffat and M. B. Sandler|KE|[Yes](https://github.com/djmoffat/intelligentCompressor)|
 |2016|[Deep neural networks for dynamic range compression in mastering applications](http://www.aes.org/e-lib/browse.cfm?elib=18237)|S. I. Mimilakis et al.|ML|No|
 |2015|[Adaptive audio reproduction using personalized compression](https://www.eecs.qmul.ac.uk/~josh/documents/2015/Mason%20et%20al%20-%20AES57%20-%202015.pdf)|A. Mason et al.|GT|No|
@@ -38,8 +39,11 @@ If related code or additional resources are available for the publication a link
 |Year|Title|Authors|Approach|Resources|
 |---|---|---|---|---|
 |2019|[Machine Learning Multitrack Gain Mixing of Drums](http://www.aes.org/e-lib/browse.cfm?elib=20550)|D. Moffat and M. B. Sandler|ML|[Yes](https://djmoffat.github.io/MachineLearningDrumGainMixing/)|
+|2019|[Modelling Experts’ Decisions on Assigning Narrative Importances of Objects in a Radio Drama Mix](http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_19.pdf)|E.T. Chourdakis, L. Ward, M. Paradis, and J.D. Reiss|ML|[Yes](https://github.com/bbc/audio-dafx2019-automatic)|
+|2019|[Machine Learning Multitrack Gain Mixing of Drums](http://www.aes.org/e-lib/browse.cfm?elib=20550)|D. Moffat and M. B. Sandler|ML|No|
 |2019|[Background Ducking to Produce Esthetically Pleasing Audio for TV with Clear Speech](http://www.aes.org/e-lib/browse.cfm?elib=20308)|M. Torcoli, A. Freke-Morin, J. Paulus, C. Simon, B. Shirley|KE|No|
 |2019|[Automatic Mixing Level Balancing Enhanced through Source Interference Identification](http://www.aes.org/e-lib/browse.cfm?elib=20355)|D. Moffat and M. B. Sandler|GT|No|
+|2018|[Real-time multi-track mixing for live performance](https://zenodo.org/record/2550903)|Joaquín Jiménez-Sauma|GT|[Yes](https://github.com/jjsauma/msmc)|
 |2018|[Automatic Mixing of Multitrack Material Using Modified Loudness Models](http://www.aes.org/e-lib/browse.cfm?conv=145&papernum=10041)|S. Fenton|KE|No|
 |2017|[Automatic masking reduction in balance mixes using evolutionary computing](http://www.aes.org/e-lib/browse.cfm?elib=19210)|N. Jillings, R. Stables|ML|No|
 |2016|[An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge](http://usir.salford.ac.uk/44278/1/Wilson.pdf)|A. Wilson and B. Fazenda|ML|No|
@@ -96,11 +100,11 @@ If related code or additional resources are available for the publication a link
 |2010|[Automatic music production system employing probabilistic expert systems](http://www.aes.org/e-lib/browse.cfm?elib=15677)|R. Gang, G. Bocko, J. Lundberg, D. Headlam, and M. F. Bocko|KE|No|
 |2008|[Improved control for selective minimization of masking using interchannel dependancy effects](http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf)|E. Perez Gonzalez and J. D. Reiss|GT|No|
 # Statistics
-![pubs_by_year](figs/papers_by_year.png)
-![categories_by_year](figs/categories_by_year.png)
-![approaches_by_year](figs/approaches_by_year.png)
-![categories](figs/categories_breakdown.png)
-![approaches](figs/approaches_breakdown.png)
+![pubs_by_year](figs/papers_by_year.svg)
+![categories_by_year](figs/categories_by_year.svg)
+![approaches_by_year](figs/approaches_by_year.svg)
+![categories](figs/categories_breakdown.svg)
+![approaches](figs/approaches_breakdown.svg)
 ## Acknowledgments
 Special thanks to [Brecht De Man](http://www.brechtdeman.com/index.html), [Joshua D. Reiss](http://www.eecs.qmul.ac.uk/~josh/), and [Ryan Stables](http://www.ryanstables.co.uk) as their publication [Ten Years of Automatic Mixing](http://www.brechtdeman.com/publications/pdf/WIMP3.pdf) served as the foundation for this repository.
 ## Contributing

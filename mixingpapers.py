@@ -37,7 +37,6 @@ def calculate_statistics(filename):
         mixing_tsv = csv.DictReader(mixing, dialect='excel-tab')
         f = mixing_tsv.fieldnames
         for entry in mixing_tsv:
-            print entry
             # get attributes from table
             year      = entry['Year']
             category  = entry['Category']
@@ -75,7 +74,7 @@ def calculate_statistics(filename):
     plt.xticks(years_num, years_num, rotation='vertical')
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year')
-    plt.savefig('figs/papers_by_year.png', bbox_inches="tight", transparent=True)
+    plt.savefig('figs/papers_by_year.svg', bbox_inches="tight", transparent=True)
 
     # plot publications by year with division by approach
     years_num = [int(i) for i in sorted(years.keys())]
@@ -93,7 +92,7 @@ def calculate_statistics(filename):
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year: Approach Breakdown', y=1.08)
     lgd = plt.legend((p3[0], p2[0], p1[0]), ('Machine Learning', 'Knowledge Engineering', 'Grounded Theory'), loc=3, bbox_to_anchor=(1, 0.5))
-    plt.savefig('figs/approaches_by_year.png', additional_artists=lgd, bbox_inches="tight", transparent=True)
+    plt.savefig('figs/approaches_by_year.svg', additional_artists=lgd, bbox_inches="tight", transparent=True)
 
     # plot publications by year with division by category
     years_num = [int(i) for i in sorted(years.keys())]
@@ -117,7 +116,7 @@ def calculate_statistics(filename):
     plt.ylabel('Publications')
     plt.title('Automatic Mixing Publications by Year: Category Breakdown', y=1.08)
     lgd = plt.legend((p6[0], p5[0], p4[0], p3[0], p2[0], p1[0]), ('Integrated', 'Reverb', 'Compression', 'Equalization', 'Panning', 'Level'), loc=3, bbox_to_anchor=(1, 0.5))
-    plt.savefig('figs/categories_by_year.png',  additional_artists=lgd, bbox_inches="tight",  transparent=True)
+    plt.savefig('figs/categories_by_year.svg',  additional_artists=lgd, bbox_inches="tight",  transparent=True)
 
     # plot pie chart of approaches
     plt.figure(3)
@@ -131,7 +130,7 @@ def calculate_statistics(filename):
     for perct in details[2]:
         perct.set_color('white')
     ax.axis('equal')
-    plt.savefig('figs/approaches_breakdown.png', transparent=True)
+    plt.savefig('figs/approaches_breakdown.svg', transparent=True)
 
     # plot pie chart of categories
     plt.figure(4)
@@ -145,7 +144,7 @@ def calculate_statistics(filename):
     for perct in details[2]:
         perct.set_color('white')
     plt.axis('equal')
-    plt.savefig('figs/categories_breakdown.png',  transparent=True)
+    plt.savefig('figs/categories_breakdown.svg',  transparent=True)
 
 def sort_papers_by_year(filename):
     with open(filename, "r+") as mixing:
@@ -203,11 +202,11 @@ def build_readme(filename):
             readme_file.write(sections[section])
         
         stats = """# Statistics\n"""
-        stats += """![pubs_by_year](figs/papers_by_year.png)\n"""
-        stats += """![categories_by_year](figs/categories_by_year.png)\n"""
-        stats += """![approaches_by_year](figs/approaches_by_year.png)\n"""
-        stats += """![categories](figs/categories_breakdown.png)\n"""
-        stats += """![approaches](figs/approaches_breakdown.png)\n"""
+        stats += """![pubs_by_year](figs/papers_by_year.svg)\n"""
+        stats += """![categories_by_year](figs/categories_by_year.svg)\n"""
+        stats += """![approaches_by_year](figs/approaches_by_year.svg)\n"""
+        stats += """![categories](figs/categories_breakdown.svg)\n"""
+        stats += """![approaches](figs/approaches_breakdown.svg)\n"""
         readme_file.write(stats)
         readme_file.write(ack.read())
         readme_file.write(contrib.read())
