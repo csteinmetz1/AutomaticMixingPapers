@@ -9,7 +9,12 @@
       "pdf" : "http://dafx.labri.fr/main/papers/p063.pdf",
       "code" : "",
       "demo" : "",
-      "bibtex" : ""
+      "bibtex" : {
+        "tag" : "inproceedings",
+        "cite-key" : "gonzalez2007automatic",
+        "title" : "Automatic mixing: live downmixing stereo panner",
+        "author" : "Gonzalez, E Perez and Reiss, Joshua"
+      }
     },
     {
       "title" : "A framework for automatic mixing using timbral similarity measures and genetic optimization",
@@ -510,6 +515,51 @@
       "pdf" : "http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_19.pdf",
       "code" : "https://github.com/bbc/audio-dafx2019-automatic",
       "demo" : ""
+    },
+    {
+      "title" : "Approaches in Intelligent Music Production",
+      "author" : "D. Moffat and M. B. Sandler",
+      "year" : 2019,
+      "category" : "Multiple",
+      "approach" : "Overview",
+      "pdf" : "https://www.mdpi.com/541536",
+      "code" : "",
+      "demo" : "",
+      "bibtex" : ""
+    }
+    ,
+    {
+      "title" : "Intelligent Music Production",
+      "author" : "B. De Man and J.D. Reiss and R. Stables",
+      "year" : 2019,
+      "category" : "Multiple",
+      "approach" : "Overview",
+      "pdf" : "https://www.routledge.com/Intelligent-Music-Production-1st-Edition/De-Man-Stables-Reiss/p/book/9781138055193",
+      "code" : "",
+      "demo" : "",
+      "bibtex" : ""
+    },
+    {
+      "title" : "An Automated Approach to the Application of Reverberation",
+      "author" : "D. Moffat and M. B. Sandler",
+      "year" : 2019,
+      "category" : "Reverb",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20637",
+      "code" : "https://github.com/djmoffat/AutoReverb",
+      "demo" : "",
+      "bibtex" : ""
+    },
+    {
+      "title" : "Ten Years of Automatic Mixing",
+      "author" : "B. De Man and J.D. Reiss and R. Stables",
+      "year" : 2017,
+      "category" : "Multiple",
+      "approach" : "Overview",
+      "pdf" : "http://www.brechtdeman.com/publications/pdf/WIMP3.pdf",
+      "code" : "",
+      "demo" : "",
+      "bibtex" : ""
     }
   ],
   "columns" : [
@@ -518,8 +568,6 @@
     {"year" : "Year"},
     {"category" : "Category"},
     {"approach" : "Approach"},
-    {"bibtex" : "Bibtex"},
-    {"code" : "Code"},
-    {"demo" : "Demo"}
+    {"code" : "Code"}
   ]
 }

@@ -33,11 +33,12 @@ $(document).ready(function () {
         var cell = row.insertCell(c);
         var col = Object.keys(cols[c])[0];
         // conditional formatting
-        if (col == "bibtex") {
-          // load the proper bibtexr file in here
+        if (col == "cite") {
+          // load the proper bibtext file in here
           var a = document.createElement('a');
           var linkText = document.createTextNode(col);
           a.appendChild(linkText);
+          //a.setAttribute("href", "cite(" +  + ")");
           a.setAttribute("class", "btn btn-light btn-sm");
           a.setAttribute("data-toggle", "tooltip");
           a.setAttribute("data-placement", "right");
