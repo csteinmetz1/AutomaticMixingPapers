@@ -1,5 +1,5 @@
 {
-  "datasets" : [
+  "entries" : [
     {
       "title" : "Automatic mixing: live downmixing stereo panner",
       "author" : "E. Perez Gonzalez and J. D. Reiss",
@@ -563,9 +563,9 @@
     }
   ],
   "columns" : [
+    {"year" : "Year"},
     {"title" : "Title"},
     {"author" : "Author(s)"},
-    {"year" : "Year"},
     {"category" : "Category"},
     {"approach" : "Approach"},
     {"code" : "Code"}

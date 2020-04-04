@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 $(document).ready(function () {
   // load table data from json file
-  $.getJSON("/data/datasets.json", function( data ) {
+  $.getJSON("/data/research.json", function( data ) {
     
     // column ordering based on HTML table header
     var cols = data.columns;
@@ -21,13 +21,13 @@ $(document).ready(function () {
     }
 
     // get dataset objects to populate table
-    var datasets = data.datasets;
+    var entries = data.entries;
 
     // get table body
     var tbody = table.getElementsByTagName('tbody')[0];
 
     // iterate over dataset entries and add rows
-    for (r=0; r<datasets.length; r++) {
+    for (r=0; r<entries.length; r++) {
       var row = tbody.insertRow(r);
       for (c=0; c<cols.length; c++) {
         var cell = row.insertCell(c);
@@ -46,28 +46,28 @@ $(document).ready(function () {
           a.setAttribute("value", "bibtex")
           cell.appendChild(a);
         }
-        else if ((col == "code" || col == "demo") && datasets[r][col] != "")  {
+        else if ((col == "code" || col == "demo") && entries[r][col] != "")  {
           var a = document.createElement('a');
           var linkText = document.createTextNode(col);
           a.appendChild(linkText);
           a.setAttribute("class", "btn btn-light btn-sm");
-          a.title = datasets[r].name + " " + col;
-          a.href = datasets[r][col];
+          a.title = entries[r].name + " " + col;
+          a.href = entries[r][col];
           a.target = "_blank";
           cell.appendChild(a);
         }
         else if (col == "title") {
           var a = document.createElement('a');
-          var linkText = document.createTextNode(datasets[r][col]);
+          var linkText = document.createTextNode(entries[r][col]);
           a.appendChild(linkText);
-          //a.title = datasets[r].name + " " + col;
-          a.href = datasets[r]["pdf"];
+          //a.title = entries[r].name + " " + col;
+          a.href = entries[r]["pdf"];
           a.target = "_blank";
           a.classList.add("font-weight-normal");
           cell.appendChild(a);
         }
         else {
-          cell.innerHTML = datasets[r][col];
+          cell.innerHTML = entries[r][col];
         }
       }
     } 
