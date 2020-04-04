@@ -23,7 +23,12 @@ var makePlots = function() {
     x: years,
     y: npubs,
     marker: {color : "#A9E8DC"},
-    type: "bar" }], {
+    type: "bar" }],
+    {
+    xaxis: {
+        autotick : false,
+        labels : years.map(String)
+        },
     margin: { t: 0 }},
     {staticPlot: true}
     );
