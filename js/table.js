@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 $(document).ready(function () {
   // load table data from json file
-  $.getJSON("/data/research.json", function( data ) {
+  $.getJSON("data/research.json", function( data ) {
     
     // column ordering based on HTML table header
     var cols = data.columns;

@@ -99,7 +99,7 @@ var makePlots = function() {
     
 }
 
-$.getJSON("/data/research.json", function( data ) {
+$.getJSON("data/research.json", function( data ) {
     // extract just publication list
     pubs = data.entries;
     $.each(pubs, function(i, pub){
