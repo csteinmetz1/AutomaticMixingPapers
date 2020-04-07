@@ -1,9 +1,9 @@
-# Automatic Mixing Research
-This repository serves to track and archive scientific work in the area of automatic multitrack audio mixing.
+# Automatic mixing research 
+Tracking academic work in the field of automatic multitrack audio mixing.
 
-## Overview
-Mixing is a complex process carried out by audio engineers during the music production process. It involves a number of different steps each of which oftentimes has many substeps dependent on the source material and the desired result. In order to better categorize the work in this area the following mix processes are identified.
+View the live site [csteinmetz1.github.io/AutomaticMixingPapers](https://csteinmetz1.github.io/AutomaticMixingPapers/).
 
+<<<<<<< HEAD
 ### Categories
 * `Level`
 * `Panning`
@@ -107,26 +107,40 @@ If related code or additional resources are available for the publication a link
 ![approaches](figs/approaches_breakdown.svg)
 ## Acknowledgments
 Special thanks to [Brecht De Man](http://www.brechtdeman.com/index.html), [Joshua D. Reiss](http://www.eecs.qmul.ac.uk/~josh/), and [Ryan Stables](http://www.ryanstables.co.uk) as their publication [Ten Years of Automatic Mixing](http://www.brechtdeman.com/publications/pdf/WIMP3.pdf) served as the foundation for this repository.
+=======
+>>>>>>> upstream/master
 ## Contributing
-Making contributions to the repo is simple.
+To add new publications follow the instructions below:
 
-First fork the repo and then clone to a local directory. 
+1. Fork the repo.
+
+2. Clone your fork to a local directory.
 ```
 git clone https://github.com/YOUR-USERNAME/AutomaticMixingPapers.git
 ```
-Then open `mixingpapers.tsv` and add the following attributes on a new line
-```
-Year	Title	Author	Paper	Resources	Category	Approach
-```
-Save the file and then run the python script which will update the files.
-```
-python mixingpapers.py
-```
-If everything goes well, stage and commit your changes, then push them to your fork.
 
-Finally make a pull request with your changes after successfully updating the files.
+3. Edit the data/research.json file and add a new entry, for example:
+```
+{
+    "title" : "A real-time semiautonomous audio panning system for music mixing",
+    "author" : "E. Perez Gonzalez and J. D. Reiss",
+    "year" : 2010,
+    "category" : "Panning",
+    "approach" : "KBS",
+    "pdf" : "https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895",
+    "code" : "",
+    "demo" : ""
+}
+```
 
-### Some notes
-* Ensure when adding entries to `mixingpapers.tsv` that your editor is using tabs not spaces
-* `mixingpapers.tsv` will be sorted by year every time you run the python script
-* If you encounter any errors with the python script ensure that you have used tabs and not left any trailing tabs or spaces.
+4. Stage and commit your changes, then push them to your fork.
+```
+git add data/datasets.json
+git commit -m "adding panning paper from E. Perez Gonzalez and J. D. Reiss"
+git push
+```
+
+5. Make a pull request with your changes after successfully pushing the changes.
+
+## Acknowledgments
+Special thanks to [Brecht De Man](http://www.brechtdeman.com/index.html), [Joshua D. Reiss](http://www.eecs.qmul.ac.uk/~josh/), and [Ryan Stables](http://www.ryanstables.co.uk) as their publication [Ten Years of Automatic Mixing](http://www.brechtdeman.com/publications/pdf/WIMP3.pdf) served as the foundation for this repository.
