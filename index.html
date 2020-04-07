@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Automatic mixing research</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/css/mdb.min.css" rel="stylesheet">
+  <!-- Local CSS styles -->
+  <link href="css/styles.css" rel="stylesheet">
+  <!-- dataTables styling -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"> -->
+  <link href="css/table.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Automatic mixing research</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="stats.html">stats
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contribute.html">contribute
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="mt-5 text-center">Automatic mixing research</h1>
+        <p class="lead text-center">Tracking academic work in the field of automatic multitrack audio mixing</p>
+      </div>
+    </div>
+
+    <div class="mt-5 mb-5">
+      <p class="text-center"><small>Click the buttons below to filter the table of papers.</small></p>
+      <table class="d-flex justify-content-center mb-4" width="100%">
+        <tbody>
+          <tr>
+            <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Level">Level</a></td>
+            <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Equalization">Equalization</a></td>
+            <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Compression">Compression</a></td>
+            <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Panning">Panning</a></td>
+            <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Reverb">Reverb</a></td>
+            <td><a class="toggle-vis btn btn-primary btn-sm btn-block" data-term="Multiple">Multiple</a></td>
+            <td><a class="toggle-vis btn btn-secondary btn-sm btn-block" data-term="ML">Machine Learning</a></td>
+            <td><a class="toggle-vis btn btn-secondary btn-sm btn-block" data-term="KBS">Knowledge-based</a></td>
+            <td><a class="toggle-vis btn btn-warning btn-sm btn-block" data-term="Overview">Overview</a></td>
+            <td><a class="toggle-vis btn btn-light text-dark btn-sm btn-block" data-term="">Clear</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <table id="dt" class="table hover cell-boarder" cellspacing="0" width="100%">
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-lg-6">
+        <h3>Categories</h3>
+        <p>Mixing is a complex process carried out by audio engineers during the music production process. 
+          It involves a number of different steps each of which oftentimes has many sub-steps dependent on the source material and the desired result. 
+          In the literature different systems have been proposed for these different processes. 
+          In order to better categorize the work in this area the following mix processes are identified: 
+          <ul>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Fade_(audio_engineering)#Fader" target="_blank">Level</a> - 
+              setting the relative level of the elements within a mix
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Panning_(audio)" target="_blank">Panning</a> -
+              placement of the elements within the stereo field
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Equalization_(audio)" target="_blank">Equalization</a> -
+              adjustment of the timbre of elements within a mix
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Dynamic_range_compression" target="_blank">Compression</a> -
+              application of dynamic range compression
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Reverberation" target="_blank">Reverb</a> -
+              application of artificial reverberation
+            </li>
+          </ul>
+          Systems that incorporate more than one of these are labeled
+          <a href="https://en.wikipedia.org/wiki/Mixing_console" target="_blank">Multiple</a>.
+        </p>
+      </div>
+
+      <div class="col-lg-6">
+        <h3>Approaches</h3>
+        <p>Two main approaches<small><sup>1</sup> </small> in building automatic mixing systems have been addressed in the literature:
+          <ul>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Knowledge-based_systems" target="_blank">Knowledge-based systems (KBS)</a>
+              systems generally consist of a set of rules or guidelines collected from professionals or hand-crafted by the designer, 
+              as well as an algorithm for applying this knowledge for a task.
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Machine Learning (ML)</a> approaches differ in that they
+              use algorithms and statistical models directly on data, generally through the application of some kind of optimization,
+               in order to construct a system for a task. 
+            </li>
+          </ul>
+          We also include a third category classified as 
+          <a href="https://en.wikipedia.org/wiki/Review_article" target="_blank">Overview</a> articles,
+          which include publications that do not involve a specific implementation, but instead present a review or analysis. 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 pt-1 pb-2 text-left">
+        <p>
+          <p>Special thanks to <a href="http://www.brechtdeman.com/index.html" target="_blank">Brecht De Man</a>, 
+            <a href="http://www.eecs.qmul.ac.uk/~josh/"  target="_blank">Joshua D. Reiss</a>, 
+            and <a href="http://www.ryanstables.co.uk" target="_blank">Ryan Stables</a> as their publication 
+            <a href="http://www.brechtdeman.com/publications/pdf/WIMP3.pdf"  target="_blank">Ten Years of Automatic Mixing</a>
+            served as the foundation.
+          </p>
+          <small>
+            <sup>1</sup> 
+            Previously there was a distinction made between <i>Knowledge-engineered</i> and <i>Grounded theory</i> approaches,
+            but due to the somewhat ill-defined differentiation between these approaches, and for clarity, we choose to
+            group all of these systems under the Knowledge-based systems (KBS) category. Since both approaches fullfil the requirements for
+            the definition of KBS, i.e. they incorporate some level of domain knowledge in conjunction with an 
+            optimization process or algorithm for the application of this knowledge, this seems to be a fair classification.
+          </small>
+        </p>
+        <!-- <p>You can download the entire Bibtex file here <a class="toggle-vis btn btn-primary btn-sm" data-term="">Download Bibtex</a></p> -->
+      </div>
+    </div>
+  </div>
+  
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- JQuery dataTables-->
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/js/mdb.min.js"></script>
+  <!-- clipboard.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+  <script type="text/javascript" src="js/ref.js"></script>
+  <!-- Table rendering -->
+  <script type="text/javascript" src="js/table.js"></script>
+  <!-- Popper.js -->
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+ 
+</body>
+
+</html>

@@ -1,0 +1,573 @@
+{
+  "entries" : [
+    {
+      "title" : "Automatic mixing: live downmixing stereo panner",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2007,
+      "category" : "Panning",
+      "approach" : "KBS",
+      "pdf" : "http://dafx.labri.fr/main/papers/p063.pdf",
+      "code" : "",
+      "demo" : "",
+      "bibtex" : {
+        "tag" : "inproceedings",
+        "cite-key" : "gonzalez2007automatic",
+        "title" : "Automatic mixing: live downmixing stereo panner",
+        "author" : "Gonzalez, E Perez and Reiss, Joshua"
+      }
+    },
+    {
+      "title" : "A framework for automatic mixing using timbral similarity measures and genetic optimization",
+      "author" : "B. Kolasinski",
+      "year" : 2008,
+      "category" : "Level",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=14626",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "An automatic maximum gain normalization technique with applications to audio mixing",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2008,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=14541",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Improved control for selective minimization of masking using interchannel dependency effects",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2008,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://legacy.spa.aalto.fi/dafx08/papers/dafx08_15.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic equalization of multichannel audio using cross-adaptive methods",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2009,
+      "category" : "Equalization",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=15026",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic monitor mixing for live musical performance",
+      "author" : "M. J. Terrell and J. D. Reiss",
+      "year" : 2009,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=15229",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic gain and fader control for live mixing",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2009,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "https://www.eecs.qmul.ac.uk/~josh/documents/2009/PerezReiss-WASPAA2009-AutomaticGainandFaderControlForLiveMixing_001.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic noise gate settings for drum recordings containing bleed from secondary sources",
+      "author" : "M. J. Terrell and J. D. Reiss",
+      "year" : 2010,
+      "category" : "Compression",
+      "approach" : "KBS",
+      "pdf" : "https://dl.acm.org/citation.cfm?id=1972713",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic music production system employing probabilistic expert systems",
+      "author" : "R. Gang, G. Bocko, J. Lundberg, D. Headlam, and M. F. Bocko",
+      "year" : 2010,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=15677",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "A real-time semiautonomous audio panning system for music mixing",
+      "author" : "E. Perez Gonzalez and J. D. Reiss",
+      "year" : 2010,
+      "category" : "Panning",
+      "approach" : "KBS",
+      "pdf" : "https://asp-eurasipjournals.springeropen.com/articles/10.1155/2010/436895",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Advanced automatic mixing tools for music",
+      "author" : "E. Perez Gonzalez",
+      "year" : 2010,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "https://qmro.qmul.ac.uk/jspui/handle/123456789/614",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Analysis of acoustic features for automated multi-track mixing",
+      "author" : "J. Scott and Y. E. Kim",
+      "year" : 2011,
+      "category" : "Level",
+      "approach" : "ML",
+      "pdf" : "http://music.ece.drexel.edu/files/Navigation/Publications/Scott2011b.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic multi-track mixing using linear dynamical systems",
+      "author" : "J. Scott et al.",
+      "year" : 2011,
+      "category" : "Level",
+      "approach" : "ML",
+      "pdf" : "",
+      "code" : "",
+      "demo" : "http://music.ece.drexel.edu/research/AutoMix/lds"
+    },
+    {
+      "title" : "Multitrack mixing using a model of loudness and partial loudness",
+      "author" : "D. Ward, J. D. Reiss, and C. Athwal",
+      "year" : 2012,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "https://www.eecs.qmul.ac.uk/~josh/documents/WardReissAthwal-AES133-Multitrackmixingusingamodelofloudnessandpartialloudness.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "An autonomous system for multitrack stereo pan positioning",
+      "author" : "S. Mansbridge, S. Finn, and J. D. Reiss",
+      "year" : 2012,
+      "category" : "Panning",
+      "approach" : "KBS",
+      "pdf" : "http://www.eecs.qmul.ac.uk/~josh/documents/MansbridgeFinnReiss-AES133-Autonomoussystemformultitrackstereopositioning.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "An offline, automatic mixing method for live music, incorporating multiple sources, loudspeakers, and room effects",
+      "author" : "M. J. Terrell and M. Sandler",
+      "year" : 2012,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://ieeexplore.ieee.org/document/6791175",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Implementation and evaluation of autonomous multi-track fader control",
+      "author" : "S. Mansbridge, S. Finn, and J. D. Reiss",
+      "year" : 2012,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.725.3873&rep=rep1&type=pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "An autonomous method for multi-track dynamic range compression",
+      "author" : "J. A. Maddams, S. Finn, and J. D. Reiss",
+      "year" : 2012,
+      "category" : "Compression",
+      "approach" : "KBS",
+      "pdf" : "https://www.dafx12.york.ac.uk/papers/dafx12_submission_6.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Instrument identification informed multi-track mixing",
+      "author" : "J. Scott and Y. E. Kim",
+      "year" : 2013,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.658.1536&rep=rep1&type=pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "A knowledge-engineered autonomous mixing system",
+      "author" : "B. De Man and J. D. Reiss",
+      "year" : 2013,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=17011",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Parameter automation in a dynamic range compressor",
+      "author" : "D. Giannoulis, M. Massberg, and J. D. Reiss",
+      "year" : 2013,
+      "category" : "Compression",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=16965",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Implementation of an intelligent equalization tool using Yule-Walker for music mixing and mastering",
+      "author" : ". Ma, J. D. Reiss, and D. A. A. Black",
+      "year" : 2013,
+      "category" : "Equalization",
+      "approach" : "KBS",
+      "pdf" : "http://www.eecs.qmul.ac.uk/~josh/documents/Ma%20Reiss-%20Implementation%20of%20an%20Intelligent%20Equalization%20Tool%20Using%20Yule-Walker%20for%20Music%20Mixing%20and%20Mastering.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automated tonal balance enhancement for audio mastering applications",
+      "author" : "S. I. Mimilakis et al.",
+      "year" : 2013,
+      "category" : "Equalization",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=16737",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "A statistical approach to automated offline dynamic processing in the audio mastering process",
+      "author" : "M. Hilsamer and S. Herzog",
+      "year" : 2014,
+      "category" : "Compression",
+      "approach" : "KBS",
+      "pdf" : "http://www.dafx14.fau.de/papers/dafx14_marcel_hilsamer_a_statistical_approach_to.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "A cross-adaptive dynamic spectral panning technique",
+      "author" : "P. D. Pestana and J. D. Reiss",
+      "year" : 2014,
+      "category" : "Panning",
+      "approach" : "KBS",
+      "pdf" : "http://www.dafx14.fau.de/papers/dafx14_pedro_d._pestana_a_cross_adaptive_dynamic_.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "The mathematics of mixing",
+      "author" : "M. J. Terrell, A. Simpson, and M. Sandler",
+      "year" : 2014,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/tmpFiles/elib/20171227/17081.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Comparison of loudness features for automatic level adjustment in mixing",
+      "author" : "G. Wichern et al.",
+      "year" : 2015,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=17928",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "New sonorities for early jazz recordings using sound source separation and automatic mixing tools",
+      "author" : "D. Matz, E. Cano, and J. Abeßer",
+      "year" : 2015,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "http://ismir2015.uma.es/articles/190_Paper.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Intelligent multitrack dynamic range compression",
+      "author" : "Z. Ma et al.",
+      "year" : 2015,
+      "category" : "Compression",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=17821",
+      "code" : "",
+      "demo" : ""
+    },   
+    {
+      "title" : "Autonomous multitrack equalization based on masking reduction",
+      "author" : "S. Hafezi and J. D. Reiss",
+      "year" : 2015,
+      "category" : "Equalization",
+      "approach" : "KBS",
+      "pdf" : "http://www.eecs.qmul.ac.uk/~josh/documents/2015/Hafezi%20Reiss%20-%202015.pdf",
+      "code" : "",
+      "demo" : ""
+    },  
+    {
+      "title" : "Adaptive audio reproduction using personalized compression",
+      "author" : "A. Mason et al.",
+      "year" : 2015,
+      "category" : "Compression",
+      "approach" : "KBS",
+      "pdf" : "https://www.eecs.qmul.ac.uk/~josh/documents/2015/Mason%20et%20al%20-%20AES57%20-%202015.pdf",
+      "code" : "",
+      "demo" : ""
+    },   
+    {
+      "title" : "An evolutionary computation approach to intelligent music production, informed by experimentally gathered domain knowledge",
+      "author" : "A. Wilson and B. Fazenda",
+      "year" : 2016,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://usir.salford.ac.uk/44278/1/Wilson.pdf",
+      "code" : "",
+      "demo" : ""
+    },   
+    {
+      "title" : "New sonorities for jazz recordings: Separation and mixing using deep neural networks",
+      "author" : "S. I. Mimilakis et al.",
+      "year" : 2016,
+      "category" : "Multiple",
+      "approach" : "ML",
+      "pdf" : "http://c4dm.eecs.qmul.ac.uk/events/wimp2/Mimilakis.pdf",
+      "code" : "https://github.com/Js-Mim/aes_wimp",
+      "demo" : ""
+    },   
+    {
+      "title" : "Deep neural networks for dynamic range compression in mastering applications",
+      "author" : "S. I. Mimilakis et al.",
+      "year" : 2016,
+      "category" : "Compression",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=18237",
+      "code" : "",
+      "demo" : ""
+    },   
+    {
+      "title" : "Automatic control of a digital reverberation effect using hybrid models",
+      "author" : "E. T. Chourdakis and J. D. Reiss",
+      "year" : 2016,
+      "category" : "Reverb",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=18090",
+      "code" : "",
+      "demo" : ""
+    },   
+    {
+      "title" : "Automatic masking reduction in balance mixes using evolutionary computing",
+      "author" : "N. Jillings and R. Stables",
+      "year" : 2017,
+      "category" : "Level",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=19210",
+      "code" : "",
+      "demo" : ""
+    },   
+    {
+      "title" : "A machine learning approach to application of intelligent artificial reverberation",
+      "author" : "E. T. Chourdakis and J. D. Reiss",
+      "year" : 2017,
+      "category" : "Reverb",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=18543",
+      "code" : "https://code.soundsoftware.ac.uk/projects/chourdakisreiss2016",
+      "demo" : ""
+    },   
+    {
+      "title" : "Analysis and prediction of the audio feature space when mixing raw recordings into individual stems",
+      "author" : "M. A. Martínez Ramírez and J. D. Reiss",
+      "year" : 2017,
+      "category" : "Multiple",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=19245",
+      "code" : "https://github.com/mchijmma/audioFeatures-stemMixing",
+      "demo" : ""
+    },   
+    {
+      "title" : "Intelligent multitrack reverberation based on hinge-loss markov random field",
+      "author" : "A. L. Benito and J. D. Reiss",
+      "year" : 2017,
+      "category" : "Reverb",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=18766",
+      "code" : "https://code.soundsoftware.ac.uk/projects/multitrackreverb",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic minimisation of masking in multitrack audio using subgroups",
+      "author" : "D. Ronan et al.",
+      "year" : 2018,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "https://arxiv.org/abs/1803.09960",
+      "code" : "https://code.soundsoftware.ac.uk/projects/automatic-minimisation-of-masking-in-multitrack-audio-using-subgroups",
+      "demo" : ""
+    },
+    {
+      "title" : "End-to-end equalization with convolutional neural networks",
+      "author" : "M. A. Martínez Ramírez and J. D. Reiss",
+      "year" : 2018,
+      "category" : "Equalization",
+      "approach" : "ML",
+      "pdf" : "https://marquetem.files.wordpress.com/2018/09/end-end-equalization-martinez_reiss.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Adaptive ballistics control of dynamic range compression for percussive tracks",
+      "author" : "D. Moffat and M. B. Sandler",
+      "year" : 2018,
+      "category" : "Compression",
+      "approach" : "KBS",
+      "pdf" : "http://davemoffat.com/wp/wp-content/uploads/2018/11/19748.pdf",
+      "code" : "https://github.com/djmoffat/intelligentCompressor",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic mixing of multitrack material using modified loudness models",
+      "author" : "S. Fenton",
+      "year" : 2018,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?conv=145&papernum=10041",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Towards a semantic web representation and application of audio mixing rules",
+      "author" : "D. Moffat, F. Thalmann and M. B. Sandler",
+      "year" : 2018,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "https://research.hud.ac.uk/media/assets/document/research/3-MoffatThalmannSandlerWIMP2018.pdf",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Real-time multi-track mixing for live performance",
+      "author" : "J. Jiménez-Sauma",
+      "year" : 2018,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "https://zenodo.org/record/2550903",
+      "code" : "https://github.com/jjsauma/msmc",
+      "demo" : ""
+    },
+    {
+      "title" : "An automatic mixing system for multitrack spatialization for stereo based on unmasking and best panning practices",
+      "author" : "A. Tom, J.D. Reiss, and P. Depalle",
+      "year" : 2019,
+      "category" : "Panning",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20311",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Automatic mixing level balancing enhanced through source interference identification",
+      "author" : "D. Moffat and M. B. Sandler",
+      "year" : 2019,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20355",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Background ducking to produce esthetically pleasing audio for TV with clear speech",
+      "author" : "M. Torcoli et al.",
+      "year" : 2019,
+      "category" : "Level",
+      "approach" : "KBS",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20308",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "A feature learning siamese model for intelligent control of the dynamic range compressor",
+      "author" : "D. Sheng and G. Fazekas",
+      "year" : 2019,
+      "category" : "Compression",
+      "approach" : "ML",
+      "pdf" : "https://arxiv.org/abs/1905.01022",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Machine learning multitrack gain mixing of drums",
+      "author" : "D. Moffat and M. B. Sandler",
+      "year" : 2019,
+      "category" : "Level",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20550",
+      "code" : "",
+      "demo" : ""
+    },    
+    {
+      "title" : "Modelling experts’ decisions on assigning narrative importances of bbjects in a radio drama mix",
+      "author" : "E.T. Chourdakis et al.",
+      "year" : 2019,
+      "category" : "Level",
+      "approach" : "ML",
+      "pdf" : "http://dafx2019.bcu.ac.uk/papers/DAFx2019_paper_19.pdf",
+      "code" : "https://github.com/bbc/audio-dafx2019-automatic",
+      "demo" : ""
+    },
+    {
+      "title" : "Approaches in Intelligent Music Production",
+      "author" : "D. Moffat and M. B. Sandler",
+      "year" : 2019,
+      "category" : "Multiple",
+      "approach" : "Overview",
+      "pdf" : "https://www.mdpi.com/541536",
+      "code" : "",
+      "demo" : "",
+      "bibtex" : ""
+    }
+    ,
+    {
+      "title" : "Intelligent Music Production",
+      "author" : "B. De Man and J.D. Reiss and R. Stables",
+      "year" : 2019,
+      "category" : "Multiple",
+      "approach" : "Overview",
+      "pdf" : "https://www.routledge.com/Intelligent-Music-Production-1st-Edition/De-Man-Stables-Reiss/p/book/9781138055193",
+      "code" : "",
+      "demo" : "",
+      "bibtex" : ""
+    },
+    {
+      "title" : "An Automated Approach to the Application of Reverberation",
+      "author" : "D. Moffat and M. B. Sandler",
+      "year" : 2019,
+      "category" : "Reverb",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20637",
+      "code" : "https://github.com/djmoffat/AutoReverb",
+      "demo" : "",
+      "bibtex" : ""
+    },
+    {
+      "title" : "Ten Years of Automatic Mixing",
+      "author" : "B. De Man and J.D. Reiss and R. Stables",
+      "year" : 2017,
+      "category" : "Multiple",
+      "approach" : "Overview",
+      "pdf" : "http://www.brechtdeman.com/publications/pdf/WIMP3.pdf",
+      "code" : "",
+      "demo" : "",
+      "bibtex" : ""
+    }
+  ],
+  "columns" : [
+    {"year" : "Year"},
+    {"title" : "Title"},
+    {"author" : "Author(s)"},
+    {"category" : "Category"},
+    {"approach" : "Approach"},
+    {"code" : "Code"}
+  ]
+}
