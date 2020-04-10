@@ -524,8 +524,7 @@
       "approach" : "Overview",
       "pdf" : "https://www.mdpi.com/541536",
       "code" : "",
-      "demo" : "",
-      "bibtex" : ""
+      "demo" : ""
     }
     ,
     {
@@ -536,8 +535,7 @@
       "approach" : "Overview",
       "pdf" : "https://www.routledge.com/Intelligent-Music-Production-1st-Edition/De-Man-Stables-Reiss/p/book/9781138055193",
       "code" : "",
-      "demo" : "",
-      "bibtex" : ""
+      "demo" : ""
     },
     {
       "title" : "An Automated Approach to the Application of Reverberation",
@@ -547,8 +545,7 @@
       "approach" : "ML",
       "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20637",
       "code" : "https://github.com/djmoffat/AutoReverb",
-      "demo" : "",
-      "bibtex" : ""
+      "demo" : ""
     },
     {
       "title" : "Ten Years of Automatic Mixing",
@@ -558,8 +555,47 @@
       "approach" : "Overview",
       "pdf" : "http://www.brechtdeman.com/publications/pdf/WIMP3.pdf",
       "code" : "",
-      "demo" : "",
-      "bibtex" : ""
+      "demo" : ""
+    },
+    {
+      "title" : "Towards an Automated Multitrack Mixing Tool using Answer Set Programming",
+      "author" : "F. Everardo",
+      "year" : 2017,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p422.pdf",
+      "code" : "",
+      "demo" : "https://soundcloud.com/flavioeverardo-research/sets"
+    },
+    {
+      "title" : "User-guided Rendering of Audio Objects Using an Interactive Genetic Algorithm",
+      "author" : "A. Wilson and B. Fazenda",
+      "year" : 2019,
+      "category" : "Level",
+      "approach" : "ML",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20490",
+      "code" : "",
+      "demo" : ""
+    },
+    {
+      "title" : "Populating the Mix Space: Parametric Methods for Generating Multitrack Audio Mixtures",
+      "author" : "A. Wilson and B. Fazenda",
+      "year" : 2017,
+      "category" : "Multiple",
+      "approach" : "KBS",
+      "pdf" : "https://www.mdpi.com/2076-3417/7/12/1329/htm",
+      "code" : "https://github.com/alexwilson101/PopulateMixSpace",
+      "demo" : ""
+    },
+    {
+      "title" : "A perceptual assistant to do sound equalization",
+      "author" : "D. Reed",
+      "year" : 2000,
+      "category" : "Equalization",
+      "approach" : "ML",
+      "pdf" : "https://dl.acm.org/doi/abs/10.1145/325737.325848",
+      "code" : "",
+      "demo" : ""
     }
   ],
   "columns" : [
