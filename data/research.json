@@ -596,6 +596,16 @@
       "pdf" : "https://dl.acm.org/doi/abs/10.1145/325737.325848",
       "code" : "",
       "demo" : ""
+    },
+    {
+      "title" : "One-shot parametric audio production style transfer with application to frequency equalization",
+      "author" : "S. I. Mimilakis, N. J. Bryan, and P. Smaragdis",
+      "year" : 2020,
+      "category" : "Equalization",
+      "approach" : "ML",
+      "pdf" : "https://ieeexplore.ieee.org/abstract/document/9054108",
+      "code" : "",
+      "demo" : "https://js-mim.github.io/sp-demo/"
     }
   ],
   "columns" : [
