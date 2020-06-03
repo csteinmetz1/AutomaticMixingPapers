@@ -507,7 +507,7 @@
       "demo" : ""
     },    
     {
-      "title" : "Modelling experts’ decisions on assigning narrative importances of bbjects in a radio drama mix",
+      "title" : "Modelling experts’ decisions on assigning narrative importances of objects in a radio drama mix",
       "author" : "E.T. Chourdakis et al.",
       "year" : 2019,
       "category" : "Level",
@@ -525,8 +525,7 @@
       "pdf" : "https://www.mdpi.com/541536",
       "code" : "",
       "demo" : ""
-    }
-    ,
+    },
     {
       "title" : "Intelligent Music Production",
       "author" : "B. De Man and J.D. Reiss and R. Stables",
@@ -606,6 +605,16 @@
       "pdf" : "https://ieeexplore.ieee.org/abstract/document/9054108",
       "code" : "",
       "demo" : "https://js-mim.github.io/sp-demo/"
+    },
+    {
+      "title" : "Mixing with intelligent mixing systems: evolving practices and lessons from computer assisted design",
+      "author" : "M. N. Lefford, G. Bromham, and D. Moffat",
+      "year" : 2020,
+      "category" : "Review",
+      "approach" : "Multiple",
+      "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20793",
+      "code" : "",
+      "demo" : ""
     }
   ],
   "columns" : [
