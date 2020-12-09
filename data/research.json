@@ -615,6 +615,16 @@
       "pdf" : "http://www.aes.org/e-lib/browse.cfm?elib=20793",
       "code" : "",
       "demo" : ""
+    },
+    {
+      "title" : "Automatic multitrack mixing with a differentiable mixing console of neural audio effects",
+      "author" : "C. J. Steinmetz, J. Pons, S. Pascual, and J. Serrà",
+      "year" : 2020,
+      "category" : "Multiple",
+      "approach" : "ML",
+      "pdf" : "https://arxiv.org/abs/2010.10291",
+      "code" : "https://github.com/csteinmetz1/pymixconsole",
+      "demo" : "https://csteinmetz1.github.io/dmc-icassp2021/"
     }
   ],
   "columns" : [
