@@ -625,7 +625,27 @@
       "pdf" : "https://arxiv.org/abs/2010.10291",
       "code" : "https://github.com/csteinmetz1/pymixconsole",
       "demo" : "https://csteinmetz1.github.io/dmc-icassp2021/"
-    }
+    },
+    {
+      "title" : "A Deep Learning Approach to Intelligent Drum Mixing with the Wave-U-Net",
+      "author" : "M. Martinez Ramirez, D. Stoller and D. Moffat,",
+      "year" : 2021,
+      "category" : "Multiple",
+      "approach" : "ML",
+      "pdf" : "http://davemoffat.com/wp/wp-content/uploads/2021/03/21023.pdf",
+      "code" : "https://github.com/f90/Mix-Wave-U-Net",
+      "demo" : "https://mchijmma.github.io/drum-mixing-wave-u-net/"
+    },
+    {
+      "title" : "Context Aware Intelligent Mixing Systems",
+      "author" : "M. N. Lefford, G. Bromham, G. Fazekas, and D. Moffat",
+      "year" : 2021,
+      "category" : "Review",
+      "approach" : "Multiple",
+      "pdf" : "http://www.aes.org/e-lib/download.cfm/21022.pdf?ID=21022",
+      "code" : "",
+      "demo" : ""
+    },
   ],
   "columns" : [
     {"year" : "Year"},
