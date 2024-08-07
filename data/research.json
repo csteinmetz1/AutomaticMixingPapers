@@ -648,7 +648,7 @@
     },
     {
       "title" : "Music Mixing Style Transfer: A Contrastive Learning Approach to Disentangle Audio Effects",
-      "author" : "J. Koo , M. A. Martínez-Ramírez , W-H. Liao , S.Uhlich , K. Lee and Y. Mitsufuji",
+      "author" : "J. Koo, M. A. Martínez-Ramírez, W-H. Liao, S.Uhlich, K. Lee and Y. Mitsufuji",
       "year" : 2023,
       "category" : "Multiple",
       "approach" : "ML",
@@ -658,7 +658,7 @@
     },
     {
       "title" : "Automatic music mixing with deep learning and out-of-domain data",
-      "author" : "M. A. Martínez-Ramírez , W-H. Liao , G. Fabbro , S. Uhlich , C. Nagashima and Y. Mitsufuji",
+      "author" : "M. A. Martínez-Ramírez, W-H. Liao, G. Fabbro, S. Uhlich, C. Nagashima and Y. Mitsufuji",
       "year" : 2022,
       "category" : "Multiple",
       "approach" : "ML",
@@ -668,7 +668,7 @@
     },
     {
       "title" : "Style Transfer of Audio Effects with Differentiable Signal Processing",
-      "author" : "C. J. Steinmetz , N. J. Bryan and J. D. Reiss",
+      "author" : "C. J. Steinmetz, N. J. Bryan and J. D. Reiss",
       "year" : 2022,
       "category" : "Multiple",
       "approach" : "ML",
@@ -678,7 +678,7 @@
     },
     {
       "title" : "Diff-MST: Differentiable Mixing Style Transfer",
-      "author" : "S. S. Vanka , C. Steinmetz , J-B. Rolland , J. Reiss and G. Fazekas",
+      "author" : "S. S. Vanka, C. Steinmetz, J-B. Rolland, J. Reiss and G. Fazekas",
       "year" : 2024,
       "category" : "Multiple",
       "approach" : "ML",
@@ -688,7 +688,7 @@
     },
     {
       "title" : "Blind Estimation of Audio Processing Graph",
-      "author" : "S. Lee , J. Park , S. Paik , K. Lee",
+      "author" : "S. Lee, J. Park, S. Paik and K. Lee",
       "year" : 2023,
       "category" : "Multiple",
       "approach" : "ML",
@@ -698,7 +698,7 @@
     },
     {
       "title" : "Searching For Music Mixing Graphs: A Pruning Approach",
-      "author" : "S. Lee , M. A. Martínez-Ramírez, W-H. Liao ,S. Uhlich, G. Fabbro, K. Lee and Y. Mitsufuji",
+      "author" : "S. Lee, M. A. Martínez-Ramírez, W-H. Liao, S. Uhlich, G. Fabbro, K. Lee and Y. Mitsufuji",
       "year" : 2024,
       "category" : "Multiple",
       "approach" : "ML",
@@ -708,7 +708,7 @@
     },
     {
       "title" : "Automatic multitrack mixing with a differentiable mixing console of neural audio effects",
-      "author" : "C. J. Steinmetz , J. Pons , S. Pascual , J. Serrà",
+      "author" : "C. J. Steinmetz, J. Pons, S. Pascual and J. Serrà",
       "year" : 2020,
       "category" : "Multiple",
       "approach" : "ML",
@@ -718,7 +718,7 @@
     },
     {
       "title" : "Differentiable Signal Processing With Black-Box Audio Effects",
-      "author" : " M. A. Martínez Ramírez,  O. Wang ,  P. Smaragdis, and  N. J Bryan",
+      "author" : " M. A. Martínez Ramírez,  O. Wang,  P. Smaragdis, and  N. J Bryan",
       "year" : 2020,
       "category" : "Multiple",
       "approach" : "ML",
@@ -728,7 +728,7 @@
     },
     {
       "title" : "Automatic DJ Transitions with Differentiable Audio Effects and Generative Adversarial Networks",
-      "author" : " B-Y. Chen, W-H. Hsu, W-H. Liao, M. A. Martínez Ramírez, Y. Mitsufuji, Y-H. Yang",
+      "author" : " B-Y. Chen, W-H. Hsu, W-H. Liao, M. A. Martínez Ramírez, Y. Mitsufuji and Y-H. Yang",
       "year" : 2022,
       "category" : "Multiple",
       "approach" : "ML",
@@ -738,7 +738,7 @@
     },
     {
       "title" : "Distortion Audio Effects: Learning How to Recover the Clean Signal",
-      "author" : " J. Imort , G. Fabbro , M. A. Martínez Ramírez , S. Uhlich , Y. Koyama and Y. Mitsufuji",
+      "author" : " J. Imort, G. Fabbro, M. A. Martínez Ramírez, S. Uhlich, Y. Koyama and Y. Mitsufuji",
       "year" : 2022,
       "category" : "Distortion",
       "approach" : "ML",
@@ -808,7 +808,7 @@
     },
     {
       "title" : "Deep learning for automatic mixing",
-      "author" : " C. J. Steinmetz, S. S. vanka, M. A. Martínez-Ramírez, G. Bromham",
+      "author" : " C. J. Steinmetz, S. S. Vanka, M. A. Martínez-Ramírez and G. Bromham",
       "year" : 2022,
       "category" : "Multiple",
       "approach" : "ML",
@@ -828,7 +828,7 @@
     },
     {
       "title" : "High-Fidelity Noise Reduction with Differentiable Signal Processing",
-      "author" : " C. J. Steinmetz, T. Wahlter, JD. Reiss ",
+      "author" : " C. J. Steinmetz, T. Wahlter and JD. Reiss ",
       "year" : 2023,
       "category" : "Noise Reduction",
       "approach" : "ML",
@@ -838,7 +838,7 @@
     },
     {
       "title" : "Modeling Analog Dynamic Range Compressors using Deep Learning and State-space Models",
-      "author" : "H. Yin, G. Cheng, C. J. Steinmetz, R. Yuan, R. M. Stern, R. B. Dannenberg",
+      "author" : "H. Yin, G. Cheng, C. J. Steinmetz, R. Yuan, R. M. Stern and R. B. Dannenberg",
       "year" : 2024,
       "category" : "Compression",
       "approach" : "ML",
@@ -848,7 +848,7 @@
     },
     {
       "title" : "General Purpose Audio Effect Removal",
-      "author" : "M. Rice, C. J. Steinmetz, G. Fazekas, J. D. Reiss",
+      "author" : "M. Rice, C. J. Steinmetz, G. Fazekas and J. D. Reiss",
       "year" : 2023,
       "category" : "Multiple",
       "approach" : "ML",
@@ -858,7 +858,7 @@
     },
     {
       "title" : "Modelling black-box audio effects with time-varying feature modulation",
-      "author" : "M. Communita, C. J. Steinmetz, H. Phan, J. D. Reiss",
+      "author" : "M. Communita, C. J. Steinmetz, H. Phan and J. D. Reiss",
       "year" : 2023,
       "category" : "Multiple",
       "approach" : "ML",
@@ -868,7 +868,7 @@
     },
     {
       "title" : "Adoption of AI Technology in Music Mixing Workflow: An Investigation",
-      "author" : "S. S vanka, M. Safi, J-B. Rolland and G. Fazekas",  
+      "author" : "S. S Vanka, M. Safi, J-B. Rolland and G. Fazekas",  
       "year" : 2023,
       "category" : "Multiple",
       "approach" : "Overview",
