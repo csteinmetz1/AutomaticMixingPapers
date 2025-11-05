@@ -875,7 +875,25 @@
       "pdf" : "https://aes2.org/publications/elibrary-page/?id=22060",
       "code" : "",
       "demo" : ""
-    }
+    },
+    {
+    "title" : "Grafx: an open-source library for audio processing graphs in pytorch",
+    "author" : "Sungho Lee, M. A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji",
+    "year" : "2024",
+    "category" : "Multiple",
+    "approach" : "ML",
+    "code" : "https://github.com/sh-lee97/grafx" ,
+    "pdf" : "https://www.arxiv.org/abs/2408.03204",
+    },
+    {
+    "title" : "Grafx: an open-source library for audio processing graphs in pytorch",
+    "author" : "Sungho Lee, M. A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji",
+    "year" : "2024",
+    "category" : "Multiple",
+    "approach" : "ML",
+    "code" : "https://github.com/sh-lee97/grafx" ,
+    "pdf" : "https://www.arxiv.org/abs/2408.03204",
+    },
 ],
   "columns" : [
     {"year" : "Year"},
