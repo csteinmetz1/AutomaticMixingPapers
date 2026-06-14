@@ -875,7 +875,28 @@
       "pdf" : "https://aes2.org/publications/elibrary-page/?id=22060",
       "code" : "",
       "demo" : ""
-    }
+    },
+      {
+      "title" : "Automatic Music Mixing Using a Generative Model of Effect Embeddings",
+      "author" : "E. Moliner, M. A. Martínez-Ramírez, J. Koo, W-H. Liao, KW Cheuk, J. Serrà, V Välimäki, Y Mitsufuji",  
+      "year" : 2025,
+      "category" : "Multiple",
+      "approach" : "Generative",
+      "pdf" : "https://arxiv.org/abs/2511.08040",
+      "code" : "https://github.com/SonyResearch/MEGAMI",
+      "demo" : "https://sonyresearch.github.io/MEGAMI/"
+    },
+      {
+      "title" : "LLM2Fx-Tools: Tool Calling For Music Post-Production",
+      "author" : "S. Doh, M. A. Martínez-Ramírez, J. Koo, W. Choi, W-H. Liao, Q. Wu,  J. Nam, Y Mitsufuji",  
+      "year" : 2025,
+      "category" : "Multiple",
+      "approach" : "LLM, DL",
+      "pdf" : "https://arxiv.org/abs/2512.01559",
+      "code" : "https://github.com/SonyResearch/LLM2Fx",
+      "demo" : "https://seungheondoh.github.io/llm2fx-tools-demo/"
+    },
+    
 ],
   "columns" : [
     {"year" : "Year"},
